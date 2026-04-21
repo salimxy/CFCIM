@@ -1,0 +1,14 @@
+[scoring] mode démo activé (sans appel API Claude)
+=== SCORING CFCIM ===
+Total adhérents : 500
+Champion : 0 (0%)
+Actif engagé : 94 (19%)
+Modéré : 223 (45%)
+À risque : 133 (27%)
+Dormant : 50 (10%)
+--- ALERTES ---
+Adhérents à risque avec CA > 5 MDH : 62
+CA total à risque : 16144.1 MDH
+[scoring] Excel enrichi : demo/CFCIM_Scored.xlsx
+[scoring] Stats JSON : demo/stats-scoring.json
+[scoring] 62 emails d'alerte générés dans demo/alertes/
