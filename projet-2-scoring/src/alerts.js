@@ -10,34 +10,47 @@ const OUTPUT = path.join(__dirname, "..", "data", "alerts.json");
 
 const CRITICAL_SEGMENTS = new Set(["À risque", "Dormant"]);
 
+function escapeHtml(value = "") {
+  return String(value)
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&#39;");
+}
+
 export async function generateAlerts() {
   const members = JSON.parse(await fs.readFile(INPUT, "utf-8"));
-  const alerts = members
+
+  // Les destinataires SMTP sont lus en mémoire mais pas persistés dans le JSON (PII)
+  const alertsWithRecipients = members
     .filter((m) => CRITICAL_SEGMENTS.has(m.segment))
     .map((m) => ({
       memberId: m.id,
       name: m.raison_sociale,
       segment: m.segment,
       score: m.score,
-      account_manager: m.account_manager,
       message: `${m.raison_sociale} est passé en segment « ${m.segment} » (score ${m.score}/100).`,
+      _notifyTo: m.account_manager?.email ?? null,
     }));
 
-  await fs.writeFile(OUTPUT, JSON.stringify(alerts, null, 2));
-  console.log(`[alerts] ${alerts.length} alertes`);
+  // Persiste sans les adresses email des chargés de compte
+  const alertsToStore = alertsWithRecipients.map(({ _notifyTo: _, ...a }) => a);
+  await fs.writeFile(OUTPUT, JSON.stringify(alertsToStore, null, 2));
+  console.log(`[alerts] ${alertsToStore.length} alertes`);
 
-  for (const alert of alerts) {
-    if (alert.account_manager?.email && process.env.SMTP_HOST) {
+  for (const alert of alertsWithRecipients) {
+    if (alert._notifyTo && process.env.SMTP_HOST) {
       await sendEmail({
-        to: alert.account_manager.email,
+        to: alert._notifyTo,
         subject: `[CFCIM] Alerte engagement — ${alert.name}`,
-        html: `<p>${alert.message}</p><p>Consulter le dashboard scoring pour actions.</p>`,
+        html: `<p>${escapeHtml(alert.message)}</p><p>Consulter le dashboard scoring pour actions.</p>`,
       });
     }
   }
-  return alerts;
+  return alertsToStore;
 }
 
 if (import.meta.url === `file://${process.argv[1]}`) {
-  generateAlerts();
+  generateAlerts().catch(console.error);
 }

@@ -3,17 +3,21 @@
   "version": "0.1.0",
   "private": true,
   "description": "Veille économique automatisée CFCIM : collecte RSS + classification Claude + diffusion email.",
-  "main": "src/index.js",
+  "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node src/index.js",
+    "start": "node index.js",
+    "demo": "node index.js --demo",
     "collect": "node src/collect.js",
     "classify": "node src/classify.js",
-    "email": "node src/generate-email.js"
+    "email": "node src/generate-email.js",
+    "generate-demo": "node demo/generate-demo.js"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.30.0",
+    "cheerio": "^1.0.0",
     "dotenv": "^16.4.5",
+    "node-fetch": "^3.3.2",
     "rss-parser": "^3.13.0"
   }
 }

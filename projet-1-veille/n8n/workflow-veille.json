@@ -4,18 +4,18 @@
     {
       "parameters": {
         "rule": {
-          "interval": [{ "field": "cronExpression", "expression": "0 7 * * 1-5" }]
+          "interval": [{ "field": "cronExpression", "expression": "0 8 * * 1-5" }]
         }
       },
       "id": "trigger-cron",
-      "name": "Tous les jours à 7h",
+      "name": "Lundi–Vendredi à 8h",
       "type": "n8n-nodes-base.scheduleTrigger",
       "typeVersion": 1,
       "position": [200, 300]
     },
     {
       "parameters": {
-        "command": "node /workflows/veille/../src/collect.js"
+        "command": "node /workflows/veille/src/collect.js"
       },
       "id": "collect",
       "name": "Collecte RSS",
@@ -25,7 +25,7 @@
     },
     {
       "parameters": {
-        "command": "node /workflows/veille/../src/classify.js"
+        "command": "node /workflows/veille/src/classify.js"
       },
       "id": "classify",
       "name": "Classification Claude",
@@ -35,7 +35,7 @@
     },
     {
       "parameters": {
-        "command": "node /workflows/veille/../src/generate-email.js"
+        "command": "node /workflows/veille/src/generate-email.js"
       },
       "id": "email",
       "name": "Génération email HTML",
@@ -45,7 +45,7 @@
     }
   ],
   "connections": {
-    "Tous les jours à 7h": { "main": [[{ "node": "Collecte RSS", "type": "main", "index": 0 }]] },
+    "Lundi–Vendredi à 8h": { "main": [[{ "node": "Collecte RSS", "type": "main", "index": 0 }]] },
     "Collecte RSS": { "main": [[{ "node": "Classification Claude", "type": "main", "index": 0 }]] },
     "Classification Claude": { "main": [[{ "node": "Génération email HTML", "type": "main", "index": 0 }]] }
   }

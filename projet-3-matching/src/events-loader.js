@@ -7,8 +7,14 @@ const EVENTS = path.join(__dirname, "..", "data", "evenements-a-venir.json");
 
 export async function loadEvents() {
   const raw = JSON.parse(await fs.readFile(EVENTS, "utf-8"));
-  const now = Date.now();
-  return raw.filter((e) => new Date(e.date).getTime() >= now);
+  // Compare par jour calendaire (heure locale) pour éviter le problème UTC avec YYYY-MM-DD
+  const today = new Date();
+  today.setHours(0, 0, 0, 0);
+  return raw.filter((e) => {
+    const eventDate = new Date(e.date);
+    eventDate.setHours(0, 0, 0, 0);
+    return eventDate.getTime() >= today.getTime();
+  });
 }
 
 if (import.meta.url === `file://${process.argv[1]}`) {

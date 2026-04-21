@@ -8,14 +8,16 @@ const OUTPUT = path.join(__dirname, "..", "data", "segments.json");
 
 const SEGMENTS = [
   { name: "Champion", min: 80 },
-  { name: "Engagé", min: 60 },
-  { name: "Tiède", min: 40 },
+  { name: "Engagé",   min: 60 },
+  { name: "Tiède",    min: 40 },
   { name: "À risque", min: 20 },
-  { name: "Dormant", min: 0 },
+  { name: "Dormant",  min: 0  },
 ];
 
 export function segmentOf(score) {
-  return SEGMENTS.find((s) => score >= s.min).name;
+  // Normalise les valeurs NaN ou négatives vers 0 (Dormant)
+  const normalized = Number.isFinite(score) && score >= 0 ? score : 0;
+  return (SEGMENTS.find((s) => normalized >= s.min) ?? SEGMENTS[SEGMENTS.length - 1]).name;
 }
 
 export async function segmentAll() {
@@ -31,5 +33,5 @@ export async function segmentAll() {
 }
 
 if (import.meta.url === `file://${process.argv[1]}`) {
-  segmentAll();
+  segmentAll().catch(console.error);
 }

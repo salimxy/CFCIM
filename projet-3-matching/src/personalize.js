@@ -8,6 +8,8 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const INPUT = path.join(__dirname, "..", "data", "matches.json");
 const OUTPUT = path.join(__dirname, "..", "data", "emails.json");
 
+const MODEL = process.env.ANTHROPIC_MODEL ?? "claude-sonnet-4-6";
+
 const SYSTEM = `Tu es chargé de relation membres à la CFCIM. Rédige un email court (max 120 mots) et chaleureux pour inviter un membre à un événement pertinent. Ton : professionnel, chaleureux, français. Signature : "L'équipe CFCIM".
 Retourne JSON strict : { "objet": string, "corps_html": string }`;
 
@@ -17,23 +19,34 @@ export async function personalize() {
   const emails = [];
 
   for (const m of matches.slice(0, 200)) {
-    const res = await client.messages.create({
-      model: "claude-sonnet-4-6",
-      max_tokens: 600,
-      system: SYSTEM,
-      messages: [
-        {
-          role: "user",
-          content: `Membre: ${m.memberName} (filière ${m.memberFiliere}, région ${m.memberRegion}).
-Événement: ${m.eventTitle} le ${m.eventDate}.`,
-        },
-      ],
-    });
     try {
-      const parsed = JSON.parse(res.content[0].text);
-      emails.push({ memberId: m.memberId, eventId: m.eventId, to: m.memberContact, ...parsed });
-    } catch {
-      emails.push({ memberId: m.memberId, eventId: m.eventId, error: "parse" });
+      const res = await client.messages.create({
+        model: MODEL,
+        max_tokens: 600,
+        system: SYSTEM,
+        messages: [
+          {
+            role: "user",
+            content: `Membre: ${m.memberName} (filière ${m.memberFiliere}, région ${m.memberRegion}).\nÉvénement: ${m.eventTitle} le ${m.eventDate}.`,
+          },
+        ],
+      });
+      try {
+        const parsed = JSON.parse(res.content[0].text);
+        // N'extraire que les champs attendus — pas de spread pour éviter l'écrasement
+        emails.push({
+          memberId: m.memberId,
+          eventId: m.eventId,
+          to: m.memberContact,
+          objet: parsed.objet,
+          corps_html: parsed.corps_html,
+        });
+      } catch {
+        emails.push({ memberId: m.memberId, eventId: m.eventId, error: "parse" });
+      }
+    } catch (err) {
+      console.error(`[personalize] ${m.memberId}×${m.eventId}: ${err.message}`);
+      emails.push({ memberId: m.memberId, eventId: m.eventId, error: "api" });
     }
   }
 
@@ -43,5 +56,5 @@ export async function personalize() {
 }
 
 if (import.meta.url === `file://${process.argv[1]}`) {
-  personalize();
+  personalize().catch(console.error);
 }

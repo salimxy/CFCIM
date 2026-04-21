@@ -4,7 +4,6 @@
   "private": true,
   "description": "Clients et utilitaires partagés entre les projets CFCIM.",
   "type": "module",
-  "main": "index.js",
   "exports": {
     "./claude-client": "./claude-client.js",
     "./data-loader": "./data-loader.js",

@@ -26,11 +26,15 @@ env/
 .env.local
 .env.*.local
 
-# === Données (garder les fichiers de config JSON) ===
-data/*.xlsx
-data/*.xls
-data/*.csv
-data/*.json
+# === Données générées (ignorer dans tous les sous-projets) ===
+# **/data/ pour couvrir projet-1-veille/data/, projet-2-scoring/data/, etc.
+**/data/*.xlsx
+**/data/*.xls
+**/data/*.csv
+**/data/*.json
+**/data/*.html
+
+# Exceptions : fichiers de config JSON et données statiques versionnées
 !**/config/*.json
 !**/data/evenements-a-venir.json
 

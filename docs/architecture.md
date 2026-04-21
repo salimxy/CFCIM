@@ -2,7 +2,7 @@
 
 ## Vue d'ensemble
 
-```
+```text
 ┌─────────────────────────────────────────────────────────────────┐
 │                     CFCIM Intelligence Platform                 │
 └─────────────────────────────────────────────────────────────────┘
@@ -57,7 +57,9 @@ Chaque projet est un workspace npm indépendant, mais réutilise `shared/` pour 
 ## Sécurité
 
 - Aucune clé en dur — tout passe par `.env` (gitignored)
-- `data/*.xlsx` gitignored : les données membres ne sortent pas du repo
+- Toutes les données générées sous `data/` (JSON, HTML, XLSX, CSV) sont gitignored via `**/data/*` — les données membres et les emails produits ne sortent jamais du repo
+- `alerts.js` ne persiste pas les adresses email des chargés de compte dans `alerts.json` (PII minimisation)
+- `generate-email.js` échappe tous les champs RSS/IA avant injection HTML (protection XSS)
 - Logs n'incluent pas de PII
 
 ## Observabilité

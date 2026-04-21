@@ -9,16 +9,28 @@ const RULES_PATH = path.join(__dirname, "..", "config", "matching-rules.json");
 const DATASET = path.join(__dirname, "..", "data", "CFCIM_Dataset_PowerBI.xlsx");
 const OUTPUT = path.join(__dirname, "..", "data", "matches.json");
 
+// Vérifie la relation dans les deux sens (graphe non orienté)
+function isRelated(source, targets, graph = {}) {
+  return (
+    graph[source]?.some((t) => targets.includes(t)) ||
+    targets.some((t) => graph[t]?.includes(source))
+  );
+}
+
 function scoreMatch(member, event, rules) {
   let score = 0;
+  const eventFilieres = event.filieres ?? [];
+  const eventRegions = event.regions ?? [];
 
-  if (event.filieres?.includes(member.filiere)) score += rules.exact_filiere;
-  else if (rules.filieres_connexes?.[member.filiere]?.some((f) => event.filieres?.includes(f))) {
+  if (eventFilieres.includes(member.filiere)) {
+    score += rules.exact_filiere;
+  } else if (isRelated(member.filiere, eventFilieres, rules.filieres_connexes)) {
     score += rules.filiere_connexe;
   }
 
-  if (event.regions?.includes(member.region)) score += rules.exact_region;
-  else if (rules.regions_limitrophes?.[member.region]?.some((r) => event.regions?.includes(r))) {
+  if (eventRegions.includes(member.region)) {
+    score += rules.exact_region;
+  } else if (isRelated(member.region, eventRegions, rules.regions_limitrophes)) {
     score += rules.region_limitrophe;
   }
 
@@ -59,5 +71,5 @@ export async function match() {
 }
 
 if (import.meta.url === `file://${process.argv[1]}`) {
-  match();
+  match().catch(console.error);
 }

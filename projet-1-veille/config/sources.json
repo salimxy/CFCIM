@@ -1,27 +1,32 @@
 [
   {
-    "name": "Le Matin - Économie",
-    "url": "https://lematin.ma/feed/rubrique/economie",
+    "name": "L'Économiste",
+    "url": "https://www.leconomiste.com/rss",
     "category": "presse-ma"
-  },
-  {
-    "name": "Les Echos - International",
-    "url": "https://services.lesechos.fr/rss/les-echos-monde.xml",
-    "category": "presse-fr"
   },
   {
     "name": "Médias24",
-    "url": "https://medias24.com/feed/",
+    "url": "https://medias24.com/feed",
     "category": "presse-ma"
   },
   {
-    "name": "L'Economiste",
-    "url": "https://www.leconomiste.com/rss.xml",
+    "name": "La Vie Éco",
+    "url": "https://www.lavieeco.com/feed",
     "category": "presse-ma"
   },
   {
-    "name": "La Tribune - Économie",
-    "url": "https://www.latribune.fr/rss/rubriques/economie.html",
-    "category": "presse-fr"
+    "name": "Le360 Économie",
+    "url": "https://fr.le360.ma/rss/economie",
+    "category": "presse-ma"
+  },
+  {
+    "name": "Aujourd'hui le Maroc",
+    "url": "https://aujourdhui.ma/feed",
+    "category": "presse-ma"
+  },
+  {
+    "name": "Hespress Économie",
+    "url": "https://fr.hespress.com/category/economie/feed",
+    "category": "presse-ma"
   }
 ]
