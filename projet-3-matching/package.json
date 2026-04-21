@@ -1,0 +1,17 @@
+{
+  "name": "projet-3-matching",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Matching membres × événements CFCIM avec personnalisation Claude.",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "match": "node src/matching.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.30.0",
+    "dotenv": "^16.4.5",
+    "xlsx": "^0.18.5"
+  }
+}

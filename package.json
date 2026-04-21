@@ -1,0 +1,21 @@
+{
+  "name": "cfcim-intelligence-platform",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Plateforme d'intelligence économique et d'automatisation pour la CFCIM (veille, scoring, matching).",
+  "workspaces": [
+    "projet-1-veille",
+    "projet-2-scoring",
+    "projet-3-matching",
+    "shared"
+  ],
+  "scripts": {
+    "veille": "npm run start --workspace=projet-1-veille",
+    "scoring": "npm run start --workspace=projet-2-scoring",
+    "matching": "npm run start --workspace=projet-3-matching"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "SEE LICENSE IN LICENSE"
+}

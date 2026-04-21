@@ -1,0 +1,5 @@
+Placeholder — remplacer par un export PNG du dashboard Power BI / Metabase.
+Le visuel doit montrer :
+- Histogramme des membres par segment (Champion, Engagé, Tiède, À risque, Dormant)
+- Courbe d'évolution du score moyen sur 12 mois
+- Top 10 des membres en baisse d'engagement

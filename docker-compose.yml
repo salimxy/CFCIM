@@ -1,0 +1,24 @@
+services:
+  n8n:
+    image: n8nio/n8n:latest
+    container_name: cfcim-n8n
+    restart: unless-stopped
+    ports:
+      # Lié uniquement au loopback — fronter avec un reverse-proxy + TLS en production
+      - "127.0.0.1:5678:5678"
+    environment:
+      - N8N_HOST=127.0.0.1
+      - N8N_PORT=5678
+      - N8N_PROTOCOL=http
+      - GENERIC_TIMEZONE=Africa/Casablanca
+      # Requis : échoue au démarrage si absent (pas de fallback faible)
+      - N8N_ENCRYPTION_KEY=${N8N_ENCRYPTION_KEY:?N8N_ENCRYPTION_KEY must be set in .env}
+    volumes:
+      - n8n_data:/home/node/.n8n
+      # Montage du projet entier (pas seulement n8n/) pour que src/ soit accessible
+      - ./projet-1-veille:/workflows/veille:ro
+      - ./projet-2-scoring:/workflows/scoring:ro
+      - ./projet-3-matching:/workflows/matching:ro
+
+volumes:
+  n8n_data:

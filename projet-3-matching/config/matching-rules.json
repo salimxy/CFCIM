@@ -1,0 +1,24 @@
+{
+  "exact_filiere": 40,
+  "filiere_connexe": 20,
+  "exact_region": 25,
+  "region_limitrophe": 10,
+  "taille_match": 15,
+  "seuil_minimum": 40,
+
+  "filieres_connexes": {
+    "Automobile": ["Équipementiers", "Logistique", "Métallurgie"],
+    "Textile": ["Distribution", "Mode"],
+    "Agroalimentaire": ["Logistique", "Distribution"],
+    "BTP": ["Industrie", "Matériaux"],
+    "Énergie": ["BTP", "Industrie"]
+  },
+
+  "regions_limitrophes": {
+    "Casablanca-Settat": ["Rabat-Salé-Kénitra", "Marrakech-Safi", "Béni Mellal-Khénifra"],
+    "Rabat-Salé-Kénitra": ["Casablanca-Settat", "Tanger-Tétouan-Al Hoceïma"],
+    "Tanger-Tétouan-Al Hoceïma": ["Rabat-Salé-Kénitra", "Fès-Meknès"],
+    "Marrakech-Safi": ["Casablanca-Settat", "Béni Mellal-Khénifra", "Souss-Massa"],
+    "Souss-Massa": ["Marrakech-Safi"]
+  }
+}

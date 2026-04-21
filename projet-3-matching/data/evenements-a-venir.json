@@ -1,0 +1,38 @@
+[
+  {
+    "id": "ev-2026-05-matinee-financement",
+    "titre": "Matinée CFCIM — Financement de l'export",
+    "date": "2026-05-15",
+    "lieu": "Casablanca",
+    "filieres": ["Agroalimentaire", "Textile", "Automobile", "BTP"],
+    "regions": ["Casablanca-Settat", "Rabat-Salé-Kénitra"],
+    "tailles_cibles": ["PME", "ETI"]
+  },
+  {
+    "id": "ev-2026-06-forum-automobile",
+    "titre": "Forum Automobile Maroc-France 2026",
+    "date": "2026-06-12",
+    "lieu": "Tanger",
+    "filieres": ["Automobile", "Équipementiers", "Logistique"],
+    "regions": ["Tanger-Tétouan-Al Hoceïma", "Rabat-Salé-Kénitra"],
+    "tailles_cibles": ["ETI", "Grand Groupe"]
+  },
+  {
+    "id": "ev-2026-07-energie-verte",
+    "titre": "Rencontres Énergie verte & hydrogène",
+    "date": "2026-07-03",
+    "lieu": "Dakhla",
+    "filieres": ["Énergie", "BTP", "Industrie"],
+    "regions": ["Souss-Massa", "Dakhla-Oued Ed-Dahab"],
+    "tailles_cibles": ["ETI", "Grand Groupe"]
+  },
+  {
+    "id": "ev-2026-09-salon-agroalimentaire",
+    "titre": "SIAM — Pavillon France",
+    "date": "2026-09-22",
+    "lieu": "Meknès",
+    "filieres": ["Agroalimentaire", "Distribution", "Logistique"],
+    "regions": ["Fès-Meknès", "Rabat-Salé-Kénitra", "Casablanca-Settat"],
+    "tailles_cibles": ["TPE", "PME", "ETI"]
+  }
+]
