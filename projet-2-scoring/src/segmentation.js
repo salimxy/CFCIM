@@ -1,37 +1,46 @@
-import fs from "node:fs/promises";
-import path from "node:path";
-import { fileURLToPath } from "node:url";
-
-const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const INPUT = path.join(__dirname, "..", "data", "scores.json");
-const OUTPUT = path.join(__dirname, "..", "data", "segments.json");
-
-const SEGMENTS = [
-  { name: "Champion", min: 80 },
-  { name: "Engagé",   min: 60 },
-  { name: "Tiède",    min: 40 },
-  { name: "À risque", min: 20 },
-  { name: "Dormant",  min: 0  },
+export const SEGMENTS = [
+  { name: "Champion",      min: 80, color: "#2E7D32" },
+  { name: "Actif engagé",  min: 60, color: "#66BB6A" },
+  { name: "Modéré",        min: 40, color: "#FFA726" },
+  { name: "À risque",      min: 20, color: "#EF6C00" },
+  { name: "Dormant",       min: 0,  color: "#C62828" },
 ];
 
 export function segmentOf(score) {
-  // Normalise les valeurs NaN ou négatives vers 0 (Dormant)
-  const normalized = Number.isFinite(score) && score >= 0 ? score : 0;
-  return (SEGMENTS.find((s) => normalized >= s.min) ?? SEGMENTS[SEGMENTS.length - 1]).name;
+  const s = Number.isFinite(score) && score >= 0 ? score : 0;
+  return SEGMENTS.find((seg) => s >= seg.min) ?? SEGMENTS[SEGMENTS.length - 1];
 }
 
-export async function segmentAll() {
-  const scored = JSON.parse(await fs.readFile(INPUT, "utf-8"));
-  const segmented = scored.map((m) => ({ ...m, segment: segmentOf(m.score) }));
-  await fs.writeFile(OUTPUT, JSON.stringify(segmented, null, 2));
-  const counts = segmented.reduce((acc, m) => {
-    acc[m.segment] = (acc[m.segment] ?? 0) + 1;
-    return acc;
-  }, {});
-  console.log("[segmentation]", counts);
-  return segmented;
+export function applySegmentation(scored) {
+  return scored.map((row) => {
+    const seg = segmentOf(row.Score_Calculé);
+    return { ...row, Segment: seg.name, Couleur_Segment: seg.color };
+  });
 }
 
-if (import.meta.url === `file://${process.argv[1]}`) {
-  segmentAll().catch(console.error);
+export function computeStats(segmented) {
+  const total = segmented.length;
+  const byName = new Map(SEGMENTS.map((s) => [s.name, { nb: 0, ca_total: 0, sum_score: 0 }]));
+
+  for (const row of segmented) {
+    const bucket = byName.get(row.Segment);
+    if (!bucket) continue;
+    bucket.nb += 1;
+    bucket.ca_total += Number(row.CA_Estimé_MDH ?? 0);
+    bucket.sum_score += Number(row.Score_Calculé ?? 0);
+  }
+
+  const segments = {};
+  for (const seg of SEGMENTS) {
+    const b = byName.get(seg.name);
+    segments[seg.name] = {
+      nb: b.nb,
+      pct: total > 0 ? Math.round((b.nb / total) * 100) : 0,
+      ca_total_mdh: Math.round(b.ca_total * 10) / 10,
+      score_moyen: b.nb > 0 ? Math.round(b.sum_score / b.nb) : 0,
+      couleur: seg.color,
+    };
+  }
+
+  return { total, segments };
 }

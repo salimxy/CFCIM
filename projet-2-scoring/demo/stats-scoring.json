@@ -1,0 +1,45 @@
+{
+  "total": 500,
+  "segments": {
+    "Champion": {
+      "nb": 0,
+      "pct": 0,
+      "ca_total_mdh": 0,
+      "score_moyen": 0,
+      "couleur": "#2E7D32"
+    },
+    "Actif engagé": {
+      "nb": 94,
+      "pct": 19,
+      "ca_total_mdh": 15789.5,
+      "score_moyen": 63,
+      "couleur": "#66BB6A"
+    },
+    "Modéré": {
+      "nb": 223,
+      "pct": 45,
+      "ca_total_mdh": 50611.4,
+      "score_moyen": 50,
+      "couleur": "#FFA726"
+    },
+    "À risque": {
+      "nb": 133,
+      "pct": 27,
+      "ca_total_mdh": 34799,
+      "score_moyen": 32,
+      "couleur": "#EF6C00"
+    },
+    "Dormant": {
+      "nb": 50,
+      "pct": 10,
+      "ca_total_mdh": 6758.1,
+      "score_moyen": 11,
+      "couleur": "#C62828"
+    }
+  },
+  "alertes": {
+    "count": 62,
+    "ca_total_mdh": 16144.1
+  },
+  "date": "2026-04-21T19:31:13.420Z"
+}

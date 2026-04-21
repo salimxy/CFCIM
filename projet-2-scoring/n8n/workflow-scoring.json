@@ -4,25 +4,119 @@
     {
       "parameters": {
         "rule": {
-          "interval": [{ "field": "cronExpression", "expression": "0 6 * * 1" }]
+          "interval": [
+            { "field": "cronExpression", "expression": "0 7 * * 1" }
+          ]
         }
       },
       "id": "trigger-cron",
-      "name": "Chaque lundi 6h",
+      "name": "Chaque lundi 7h",
       "type": "n8n-nodes-base.scheduleTrigger",
       "typeVersion": 1,
       "position": [200, 300]
     },
     {
-      "parameters": { "command": "node /workflows/scoring/src/index.js" },
-      "id": "pipeline",
-      "name": "Pipeline scoring",
-      "type": "n8n-nodes-base.executeCommand",
-      "typeVersion": 1,
+      "parameters": {
+        "operation": "read",
+        "documentId": "={{ $env.CFCIM_SHEET_ID }}",
+        "sheetName": "Adherents",
+        "options": {}
+      },
+      "id": "sheets-read",
+      "name": "Lire base adhérents",
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4,
       "position": [420, 300]
+    },
+    {
+      "parameters": {
+        "jsCode": "// Calcul du score multicritère (version inline du pipeline scoring.js)\nconst rows = items.map(i => i.json);\nconst TOTAL_SERVICES = 11;\nconst W = { events: 0.30, email: 0.25, services: 0.20, digital: 0.15, dynamique: 0.10 };\n\nfunction oui(v) { return String(v || '').trim().toLowerCase() === 'oui'; }\nfunction clamp(v, lo, hi) { return Math.max(lo, Math.min(hi, v)); }\n\nreturn rows.map(r => {\n  const nbEvents = Number(r.Nb_Participations_12m || 0);\n  const medFiliere = Number(r.Mediane_Filiere || 1);\n  const nbServices = Number(r.Nb_Services_Distincts || 0);\n  const ancien = Number(r.Score_Engagement || 0);\n\n  const s_events = nbEvents === 0 ? 0 : Math.min(100, (nbEvents / medFiliere) * 100);\n  const s_email = oui(r.Email_Optin) ? clamp((ancien / 100) * 0.4, 0, 1) * 100 : 0;\n  const s_services = Math.min(100, (nbServices / TOTAL_SERVICES) * 100);\n  const s_digital = Math.min(100, (oui(r.App_MyCFCIM) ? 60 : 0) + (oui(r.Email_Optin) ? 40 : 0));\n\n  const partial = (s_events * W.events + s_email * W.email + s_services * W.services + s_digital * W.digital) / 0.9;\n  const s_dyn = partial > ancien + 5 ? 100 : partial < ancien - 5 ? 0 : 50;\n\n  const total = Math.round(clamp(\n    s_events * W.events + s_email * W.email + s_services * W.services + s_digital * W.digital + s_dyn * W.dynamique,\n    0, 100\n  ));\n\n  return { json: { ...r, Score_Calcule: total, score_events: Math.round(s_events), score_email: Math.round(s_email), score_services: Math.round(s_services), score_digital: Math.round(s_digital), score_dynamique: s_dyn } };\n});"
+      },
+      "id": "code-scoring",
+      "name": "Calcul du score",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [640, 300]
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": { "caseSensitive": true, "leftValue": "", "typeValidation": "strict" },
+          "combinator": "and",
+          "conditions": [
+            {
+              "leftValue": "={{ $json.Score_Calcule }}",
+              "rightValue": 30,
+              "operator": { "type": "number", "operation": "lt" }
+            },
+            {
+              "leftValue": "={{ $json.CA_Estime_MDH }}",
+              "rightValue": 5,
+              "operator": { "type": "number", "operation": "gt" }
+            }
+          ]
+        }
+      },
+      "id": "if-risque",
+      "name": "Score < 30 ET CA > 5 MDH",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2,
+      "position": [860, 300]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.anthropic.com/v1/messages",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            { "name": "x-api-key", "value": "={{ $env.ANTHROPIC_API_KEY }}" },
+            { "name": "anthropic-version", "value": "2023-06-01" },
+            { "name": "content-type", "value": "application/json" }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={\n  \"model\": \"{{ $env.ANTHROPIC_MODEL || 'claude-sonnet-4-6' }}\",\n  \"max_tokens\": 800,\n  \"messages\": [{\n    \"role\": \"user\",\n    \"content\": \"Tu es responsable relation adhérents CFCIM. Adhérent en risque : {{ $json.Entreprise }} (secteur {{ $json.Secteur }}, filière {{ $json.Filiere_CFCIM }}, région {{ $json.Region }}, CA {{ $json.CA_Estime_MDH }} MDH). Score : {{ $json.Score_Calcule }}/100 (événements {{ $json.score_events }}, email {{ $json.score_email }}, services {{ $json.score_services }}, digital {{ $json.score_digital }}). Rédige en JSON strict : {\\\"diagnostic\\\": string, \\\"actions\\\": [3 actions], \\\"email_approche\\\": string}\"\n  }]\n}"
+      },
+      "id": "claude-recommend",
+      "name": "Claude — recommandations",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4,
+      "position": [1100, 220]
+    },
+    {
+      "parameters": {
+        "fromEmail": "={{ $env.SMTP_FROM }}",
+        "toEmail": "={{ $json.Email_Charge_Affaires }}",
+        "subject": "=[CFCIM] Alerte engagement — {{ $json.Entreprise }}",
+        "html": "=<h2>Alerte engagement : {{ $json.Entreprise }}</h2><p>Score : {{ $json.Score_Calcule }}/100 — CA : {{ $json.CA_Estime_MDH }} MDH</p><p>Diagnostic IA : {{ $node['Claude — recommandations'].json.content[0].text }}</p>"
+      },
+      "id": "send-email",
+      "name": "Email au chargé d'affaires",
+      "type": "n8n-nodes-base.emailSend",
+      "typeVersion": 2,
+      "position": [1340, 220]
     }
   ],
   "connections": {
-    "Chaque lundi 6h": { "main": [[{ "node": "Pipeline scoring", "type": "main", "index": 0 }]] }
+    "Chaque lundi 7h": {
+      "main": [[{ "node": "Lire base adhérents", "type": "main", "index": 0 }]]
+    },
+    "Lire base adhérents": {
+      "main": [[{ "node": "Calcul du score", "type": "main", "index": 0 }]]
+    },
+    "Calcul du score": {
+      "main": [[{ "node": "Score < 30 ET CA > 5 MDH", "type": "main", "index": 0 }]]
+    },
+    "Score < 30 ET CA > 5 MDH": {
+      "main": [
+        [{ "node": "Claude — recommandations", "type": "main", "index": 0 }],
+        []
+      ]
+    },
+    "Claude — recommandations": {
+      "main": [[{ "node": "Email au chargé d'affaires", "type": "main", "index": 0 }]]
+    }
   }
 }

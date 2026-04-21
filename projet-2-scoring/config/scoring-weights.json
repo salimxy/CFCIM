@@ -1,8 +1,8 @@
 {
-  "cotisation": 0.25,
-  "events": 0.25,
-  "emails": 0.15,
-  "anciennete": 0.15,
-  "appels": 0.20,
-  "_comment": "La somme des poids = 1.0. Modifier selon les priorités métier."
+  "events": 0.30,
+  "email": 0.25,
+  "services": 0.20,
+  "digital": 0.15,
+  "dynamique": 0.10,
+  "_comment": "Pondérations du score d'engagement CFCIM. Somme = 1.0."
 }
