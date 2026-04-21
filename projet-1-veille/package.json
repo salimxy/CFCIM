@@ -1,0 +1,19 @@
+{
+  "name": "projet-1-veille",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Veille économique automatisée CFCIM : collecte RSS + classification Claude + diffusion email.",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "collect": "node src/collect.js",
+    "classify": "node src/classify.js",
+    "email": "node src/generate-email.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.30.0",
+    "dotenv": "^16.4.5",
+    "rss-parser": "^3.13.0"
+  }
+}

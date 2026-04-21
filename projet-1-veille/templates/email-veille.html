@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Veille CFCIM — {{DATE}}</title>
+    <style>
+      body { font-family: -apple-system, Segoe UI, Roboto, sans-serif; color: #1d1d1f; max-width: 640px; margin: 0 auto; padding: 24px; }
+      h1 { color: #003366; border-bottom: 3px solid #e30613; padding-bottom: 8px; }
+      .article { padding: 16px 0; border-bottom: 1px solid #eee; }
+      .article h3 { margin: 4px 0; }
+      .article a { color: #003366; text-decoration: none; }
+      .meta { font-size: 12px; color: #888; text-transform: uppercase; }
+      small { color: #999; }
+      footer { margin-top: 32px; font-size: 12px; color: #666; }
+    </style>
+  </head>
+  <body>
+    <h1>Veille Économique CFCIM</h1>
+    <p><strong>{{DATE}}</strong> — {{COUNT}} articles sélectionnés</p>
+    {{ARTICLES}}
+    <footer>
+      Newsletter automatisée — CFCIM Intelligence Platform.<br />
+      Vous recevez cet email parce que vous êtes adhérent CFCIM.
+    </footer>
+  </body>
+</html>

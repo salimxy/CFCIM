@@ -1,0 +1,8 @@
+{
+  "cotisation": 0.25,
+  "events": 0.25,
+  "emails": 0.15,
+  "anciennete": 0.15,
+  "appels": 0.20,
+  "_comment": "La somme des poids = 1.0. Modifier selon les priorités métier."
+}

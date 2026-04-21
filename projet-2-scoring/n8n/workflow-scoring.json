@@ -1,0 +1,28 @@
+{
+  "name": "CFCIM - Scoring d'engagement hebdomadaire",
+  "nodes": [
+    {
+      "parameters": {
+        "rule": {
+          "interval": [{ "field": "cronExpression", "expression": "0 6 * * 1" }]
+        }
+      },
+      "id": "trigger-cron",
+      "name": "Chaque lundi 6h",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1,
+      "position": [200, 300]
+    },
+    {
+      "parameters": { "command": "node /workflows/scoring/../src/index.js" },
+      "id": "pipeline",
+      "name": "Pipeline scoring",
+      "type": "n8n-nodes-base.executeCommand",
+      "typeVersion": 1,
+      "position": [420, 300]
+    }
+  ],
+  "connections": {
+    "Chaque lundi 6h": { "main": [[{ "node": "Pipeline scoring", "type": "main", "index": 0 }]] }
+  }
+}

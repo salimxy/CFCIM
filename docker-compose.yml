@@ -1,0 +1,23 @@
+version: "3.8"
+
+services:
+  n8n:
+    image: n8nio/n8n:latest
+    container_name: cfcim-n8n
+    restart: unless-stopped
+    ports:
+      - "5678:5678"
+    environment:
+      - N8N_HOST=localhost
+      - N8N_PORT=5678
+      - N8N_PROTOCOL=http
+      - GENERIC_TIMEZONE=Africa/Casablanca
+      - N8N_ENCRYPTION_KEY=${N8N_ENCRYPTION_KEY:-change-me-in-production}
+    volumes:
+      - n8n_data:/home/node/.n8n
+      - ./projet-1-veille/n8n:/workflows/veille:ro
+      - ./projet-2-scoring/n8n:/workflows/scoring:ro
+      - ./projet-3-matching/n8n:/workflows/matching:ro
+
+volumes:
+  n8n_data:
