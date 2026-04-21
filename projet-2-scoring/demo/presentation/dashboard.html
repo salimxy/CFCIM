@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8" />
+<title>CFCIM — Dashboard Scoring d'Engagement</title>
+<style>
+  :root { --cfcim-red: #e30613; --cfcim-blue: #003366; --bg: #f5f7fa; }
+  * { box-sizing: border-box; }
+  body { font-family: -apple-system, "Segoe UI", sans-serif; background: var(--bg); margin: 0; color: #222; }
+  .page { max-width: 1100px; margin: 0 auto; padding: 32px; }
+  header { background: var(--cfcim-blue); color: white; margin: -32px -32px 24px; padding: 28px 32px; border-bottom: 4px solid var(--cfcim-red); }
+  header h1 { margin: 0; font-size: 24px; }
+  header .sub { opacity: 0.85; margin-top: 4px; font-size: 14px; }
+  .kpis { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin-bottom: 28px; }
+  .kpi { background: white; padding: 18px; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.06); }
+  .kpi-label { font-size: 12px; color: #666; text-transform: uppercase; letter-spacing: 0.5px; }
+  .kpi-value { font-size: 28px; font-weight: 700; color: var(--cfcim-blue); margin-top: 4px; }
+  .kpi-sub { font-size: 12px; color: #888; margin-top: 4px; }
+  .card { background: white; padding: 24px; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.06); margin-bottom: 24px; }
+  .card h2 { color: var(--cfcim-blue); margin: 0 0 18px; font-size: 18px; border-bottom: 2px solid #eef; padding-bottom: 10px; }
+  .bar-row { display: grid; grid-template-columns: 140px 1fr 140px; gap: 12px; align-items: center; margin: 10px 0; }
+  .bar-label { font-weight: 600; font-size: 14px; }
+  .bar-track { background: #eef; border-radius: 4px; height: 28px; overflow: hidden; position: relative; }
+  .bar-fill { height: 100%; display: flex; align-items: center; padding: 0 10px; color: white; border-radius: 4px; transition: width 0.5s; }
+  .bar-value { font-size: 13px; font-weight: 600; white-space: nowrap; }
+  .bar-ca { text-align: right; font-size: 13px; color: #555; }
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  th { background: #f4f7fb; color: var(--cfcim-blue); text-align: left; padding: 10px; border-bottom: 2px solid #e0e6ef; font-weight: 600; }
+  td { padding: 10px; border-bottom: 1px solid #f0f2f6; }
+  td.num, th.num { text-align: right; }
+  td.rk { color: #999; font-weight: 700; }
+  .score-badge { color: white; padding: 3px 10px; border-radius: 12px; font-weight: 700; font-size: 12px; }
+  .muted { color: #888; font-size: 11px; }
+  .legend { display: flex; gap: 18px; flex-wrap: wrap; margin-top: 16px; font-size: 12px; color: #555; }
+  .legend .dot { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 6px; vertical-align: middle; }
+  footer { margin-top: 30px; color: #888; font-size: 12px; text-align: center; }
+  .alert-box { background: #fff5f5; border-left: 4px solid var(--cfcim-red); padding: 14px 18px; border-radius: 4px; }
+</style>
+</head>
+<body>
+<div class="page">
+  <header>
+    <h1>CFCIM — Scoring d'engagement des adhérents</h1>
+    <div class="sub">Dashboard automatique • Calcul du 2026-04-21 • 500 adhérents analysés</div>
+  </header>
+
+  <div class="kpis">
+    <div class="kpi">
+      <div class="kpi-label">Total adhérents</div>
+      <div class="kpi-value">500</div>
+      <div class="kpi-sub">base CFCIM complète</div>
+    </div>
+    <div class="kpi">
+      <div class="kpi-label">Score moyen</div>
+      <div class="kpi-value">43.7/100</div>
+      <div class="kpi-sub">pondération multicritère</div>
+    </div>
+    <div class="kpi">
+      <div class="kpi-label">% en risque</div>
+      <div class="kpi-value" style="color: var(--cfcim-red)">37%</div>
+      <div class="kpi-sub">À risque + Dormant</div>
+    </div>
+    <div class="kpi">
+      <div class="kpi-label">Alertes prioritaires</div>
+      <div class="kpi-value" style="color: var(--cfcim-red)">62</div>
+      <div class="kpi-sub">Score&lt;30 ∧ CA&gt;5 MDH</div>
+    </div>
+  </div>
+
+  <div class="card alert-box">
+    <strong>CA en jeu :</strong> 16 144,1 MDH sont
+    concentrés sur les 62 adhérents à risque à fort CA — cible prioritaire
+    pour les chargés d'affaires cette semaine.
+  </div>
+
+  <div class="card">
+    <h2>Répartition par segment</h2>
+    
+    <div class="bar-row">
+      <div class="bar-label">Champion</div>
+      <div class="bar-track">
+        <div class="bar-fill" style="width:2%; background:#2E7D32">
+          <span class="bar-value">0 — 0%</span>
+        </div>
+      </div>
+      <div class="bar-ca">0 MDH</div>
+    </div>
+    <div class="bar-row">
+      <div class="bar-label">Actif engagé</div>
+      <div class="bar-track">
+        <div class="bar-fill" style="width:42.152466367713004%; background:#66BB6A">
+          <span class="bar-value">94 — 19%</span>
+        </div>
+      </div>
+      <div class="bar-ca">15 789,5 MDH</div>
+    </div>
+    <div class="bar-row">
+      <div class="bar-label">Modéré</div>
+      <div class="bar-track">
+        <div class="bar-fill" style="width:100%; background:#FFA726">
+          <span class="bar-value">223 — 45%</span>
+        </div>
+      </div>
+      <div class="bar-ca">50 611,4 MDH</div>
+    </div>
+    <div class="bar-row">
+      <div class="bar-label">À risque</div>
+      <div class="bar-track">
+        <div class="bar-fill" style="width:59.64125560538116%; background:#EF6C00">
+          <span class="bar-value">133 — 27%</span>
+        </div>
+      </div>
+      <div class="bar-ca">34 799 MDH</div>
+    </div>
+    <div class="bar-row">
+      <div class="bar-label">Dormant</div>
+      <div class="bar-track">
+        <div class="bar-fill" style="width:22.421524663677133%; background:#C62828">
+          <span class="bar-value">50 — 10%</span>
+        </div>
+      </div>
+      <div class="bar-ca">6 758,1 MDH</div>
+    </div>
+    <div class="legend">
+      <span><span class="dot" style="background:#2E7D32"></span>Champion (0/100 moyen)</span><span><span class="dot" style="background:#66BB6A"></span>Actif engagé (63/100 moyen)</span><span><span class="dot" style="background:#FFA726"></span>Modéré (50/100 moyen)</span><span><span class="dot" style="background:#EF6C00"></span>À risque (32/100 moyen)</span><span><span class="dot" style="background:#C62828"></span>Dormant (11/100 moyen)</span>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>Top 10 des alertes prioritaires (par CA en jeu)</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Entreprise</th>
+          <th>Secteur</th>
+          <th>Filière</th>
+          <th class="num">CA (MDH)</th>
+          <th class="num">Score</th>
+          <th class="num">Évt</th>
+          <th class="num">Email</th>
+          <th class="num">Svcs</th>
+          <th class="num">Digit.</th>
+        </tr>
+      </thead>
+      <tbody>
+      <tr>
+        <td class="rk">1</td>
+        <td><strong>Global Industries</strong><br /><span class="muted">ADH-0351</span></td>
+        <td>IT &amp; Digital</td>
+        <td>Art de vivre &amp; Santé</td>
+        <td class="num">1727.3</td>
+        <td class="num"><span class="score-badge" style="background:#EF6C00">24</span></td>
+        <td class="num">0</td>
+        <td class="num">8</td>
+        <td class="num">9</td>
+        <td class="num">100</td>
+      </tr>
+      <tr>
+        <td class="rk">2</td>
+        <td><strong>Casa Trading</strong><br /><span class="muted">ADH-0475</span></td>
+        <td>Santé &amp; Pharma</td>
+        <td>Industrie &amp; Infrastructures</td>
+        <td class="num">1661.5</td>
+        <td class="num"><span class="score-badge" style="background:#EF6C00">29</span></td>
+        <td class="num">33</td>
+        <td class="num">29</td>
+        <td class="num">27</td>
+        <td class="num">40</td>
+      </tr>
+      <tr>
+        <td class="rk">3</td>
+        <td><strong>Smart Foods</strong><br /><span class="muted">ADH-0269</span></td>
+        <td>Agroalimentaire</td>
+        <td>Agrotech</td>
+        <td class="num">1594.8</td>
+        <td class="num"><span class="score-badge" style="background:#EF6C00">28</span></td>
+        <td class="num">33</td>
+        <td class="num">14</td>
+        <td class="num">18</td>
+        <td class="num">40</td>
+      </tr>
+      <tr>
+        <td class="rk">4</td>
+        <td><strong>Atlas Energy</strong><br /><span class="muted">ADH-0452</span></td>
+        <td>Automobile</td>
+        <td>Art de vivre &amp; Santé</td>
+        <td class="num">1569.5</td>
+        <td class="num"><span class="score-badge" style="background:#C62828">13</span></td>
+        <td class="num">0</td>
+        <td class="num">0</td>
+        <td class="num">9</td>
+        <td class="num">40</td>
+      </tr>
+      <tr>
+        <td class="rk">5</td>
+        <td><strong>Tech Transport</strong><br /><span class="muted">ADH-0262</span></td>
+        <td>Télécoms</td>
+        <td>Agrotech</td>
+        <td class="num">1364.2</td>
+        <td class="num"><span class="score-badge" style="background:#C62828">15</span></td>
+        <td class="num">33</td>
+        <td class="num">0</td>
+        <td class="num">27</td>
+        <td class="num">0</td>
+      </tr>
+      <tr>
+        <td class="rk">6</td>
+        <td><strong>Vision Agri</strong><br /><span class="muted">ADH-0185</span></td>
+        <td>Logistique &amp; Transport</td>
+        <td>Tech &amp; Services</td>
+        <td class="num">1314.5</td>
+        <td class="num"><span class="score-badge" style="background:#EF6C00">27</span></td>
+        <td class="num">67</td>
+        <td class="num">0</td>
+        <td class="num">36</td>
+        <td class="num">0</td>
+      </tr>
+      <tr>
+        <td class="rk">7</td>
+        <td><strong>Casa Logistics</strong><br /><span class="muted">ADH-0302</span></td>
+        <td>IT &amp; Digital</td>
+        <td>Tech &amp; Services</td>
+        <td class="num">1248.6</td>
+        <td class="num"><span class="score-badge" style="background:#EF6C00">25</span></td>
+        <td class="num">33</td>
+        <td class="num">10</td>
+        <td class="num">9</td>
+        <td class="num">40</td>
+      </tr>
+      <tr>
+        <td class="rk">8</td>
+        <td><strong>Euro Services</strong><br /><span class="muted">ADH-0461</span></td>
+        <td>Logistique &amp; Transport</td>
+        <td>Industrie &amp; Infrastructures</td>
+        <td class="num">974.5</td>
+        <td class="num"><span class="score-badge" style="background:#C62828">13</span></td>
+        <td class="num">0</td>
+        <td class="num">2</td>
+        <td class="num">9</td>
+        <td class="num">40</td>
+      </tr>
+      <tr>
+        <td class="rk">9</td>
+        <td><strong>Rif Services</strong><br /><span class="muted">ADH-0205</span></td>
+        <td>IT &amp; Digital</td>
+        <td>Tech &amp; Services</td>
+        <td class="num">913.5</td>
+        <td class="num"><span class="score-badge" style="background:#C62828">14</span></td>
+        <td class="num">0</td>
+        <td class="num">6</td>
+        <td class="num">9</td>
+        <td class="num">40</td>
+      </tr>
+      <tr>
+        <td class="rk">10</td>
+        <td><strong>Franco Energy</strong><br /><span class="muted">ADH-0414</span></td>
+        <td>Énergie &amp; Environnement</td>
+        <td>Industrie &amp; Infrastructures</td>
+        <td class="num">287</td>
+        <td class="num"><span class="score-badge" style="background:#EF6C00">27</span></td>
+        <td class="num">0</td>
+        <td class="num">12</td>
+        <td class="num">18</td>
+        <td class="num">100</td>
+      </tr></tbody>
+    </table>
+  </div>
+
+  <div class="card">
+    <h2>Méthodologie</h2>
+    <p><strong>Formule du score composite (0-100) :</strong>
+    events × 0.30 + email × 0.25 + services × 0.20 + digital × 0.15 + dynamique × 0.10</p>
+    <ul>
+      <li><strong>Événements</strong> — participations 12 derniers mois, normalisées par la médiane de la filière</li>
+      <li><strong>Email</strong> — taux d'ouverture simulé (0 si opt-in = Non)</li>
+      <li><strong>Services</strong> — nombre de services distincts utilisés / 11 services CFCIM</li>
+      <li><strong>Digital</strong> — App MyCFCIM (60 pts) + opt-in email (40 pts)</li>
+      <li><strong>Dynamique</strong> — évolution vs trimestre précédent : hausse / stable / baisse</li>
+    </ul>
+  </div>
+
+  <footer>
+    Généré automatiquement par le pipeline <code>projet-2-scoring</code> — CFCIM Intelligence Platform
+  </footer>
+</div>
+</body>
+</html>

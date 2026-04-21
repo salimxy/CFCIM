@@ -1,0 +1,11 @@
+ID_Adherent,Entreprise,Secteur,Filière_CFCIM,Région,CA_Estimé_MDH,Score_Calculé,Segment,score_events,score_email,score_services,score_digital,score_dynamique
+ADH-0351,Global Industries,IT & Digital,Art de vivre & Santé,Rabat-Salé-Kénitra,1727.3,24,À risque,0,8,9,100,50
+ADH-0475,Casa Trading,Santé & Pharma,Industrie & Infrastructures,Casablanca-Settat,1661.5,29,À risque,33,29,27,40,0
+ADH-0269,Smart Foods,Agroalimentaire,Agrotech,Marrakech-Safi,1594.8,28,À risque,33,14,18,40,50
+ADH-0452,Atlas Energy,Automobile,Art de vivre & Santé,Rabat-Salé-Kénitra,1569.5,13,Dormant,0,0,9,40,50
+ADH-0262,Tech Transport,Télécoms,Agrotech,Casablanca-Settat,1364.2,15,Dormant,33,0,27,0,0
+ADH-0185,Vision Agri,Logistique & Transport,Tech & Services,Tanger-Tétouan,1314.5,27,À risque,67,0,36,0,0
+ADH-0302,Casa Logistics,IT & Digital,Tech & Services,Rabat-Salé-Kénitra,1248.6,25,À risque,33,10,9,40,50
+ADH-0461,Euro Services,Logistique & Transport,Industrie & Infrastructures,Rabat-Salé-Kénitra,974.5,13,Dormant,0,2,9,40,50
+ADH-0205,Rif Services,IT & Digital,Tech & Services,Casablanca-Settat,913.5,14,Dormant,0,6,9,40,50
+ADH-0414,Franco Energy,Énergie & Environnement,Industrie & Infrastructures,Souss-Massa,287,27,À risque,0,12,18,100,50

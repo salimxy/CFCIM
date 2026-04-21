@@ -1,0 +1,501 @@
+ID_Adherent,Entreprise,Secteur,Filière_CFCIM,Région,Taille,CA_Estimé_MDH,Score_Engagement,Score_Calculé,score_events,score_email,score_services,score_digital,score_dynamique,Segment,Nb_Participations_12m,Nb_Services_Distincts,Email_Optin,App_MyCFCIM,Date_Calcul
+ADH-0001,Vision Consulting,BTP & Immobilier,Agrotech,Oriental,ETI (51-250),105.8,45,33,67,0,18,60,0,À risque,2,2,Non,Oui,2026-04-21
+ADH-0002,Nova Construction,BTP & Immobilier,Tech & Services,Casablanca-Settat,TPE (1-10),1.5,58,24,33,0,27,60,0,À risque,1,3,Non,Oui,2026-04-21
+ADH-0003,Neo Pharma,Industrie manufacturière,Industrie & Infrastructures,Souss-Massa,PME (11-50),25.2,12,47,67,1,9,100,100,Modéré,2,1,Oui,Oui,2026-04-21
+ADH-0004,Neo Construction,Énergie & Environnement,Tech & Services,Casablanca-Settat,Grande Entreprise (250+),1927.3,58,37,33,20,36,100,0,À risque,1,4,Oui,Oui,2026-04-21
+ADH-0005,Africa Consulting,Énergie & Environnement,Art de vivre & Santé,Casablanca-Settat,TPE (1-10),1.7,34,51,100,11,9,40,100,Modéré,3,1,Oui,Non,2026-04-21
+ADH-0006,Casa Development,Agroalimentaire,Industrie & Infrastructures,Casablanca-Settat,PME (11-50),32.8,25,53,100,0,18,60,100,Modéré,3,2,Non,Oui,2026-04-21
+ADH-0007,Neo Solutions,BTP & Immobilier,Agrotech,Casablanca-Settat,PME (11-50),49.3,48,33,67,15,18,40,0,À risque,2,2,Oui,Non,2026-04-21
+ADH-0008,Tanger Foods,Finance & Assurance,Industrie & Infrastructures,Casablanca-Settat,PME (11-50),21.7,20,39,33,10,9,100,100,À risque,1,1,Oui,Oui,2026-04-21
+ADH-0009,Optima Pharma,Automobile,Agrotech,Fès-Meknès,TPE (1-10),1.2,12,30,33,10,9,40,100,À risque,1,1,Oui,Non,2026-04-21
+ADH-0010,Souss Invest,Énergie & Environnement,Tech & Services,Tanger-Tétouan,TPE (1-10),0.8,39,54,100,19,18,40,100,Modéré,3,2,Oui,Non,2026-04-21
+ADH-0011,Tanger Solutions,IT & Digital,Tech & Services,Casablanca-Settat,TPE (1-10),1.5,15,8,0,1,9,40,0,Dormant,0,1,Oui,Non,2026-04-21
+ADH-0012,Royal Logistics,Automobile,Cleantech,Dakhla-Oued Eddahab,ETI (51-250),184.7,80,39,100,0,45,0,0,À risque,2,5,Non,Non,2026-04-21
+ADH-0013,Méditerranée Engineering,Automobile,Agrotech,Casablanca-Settat,ETI (51-250),238.9,7,37,33,0,9,100,100,À risque,1,1,Oui,Oui,2026-04-21
+ADH-0014,Pro Construction,Tourisme & Hôtellerie,Agrotech,Casablanca-Settat,PME (11-50),31.8,69,37,100,0,36,0,0,À risque,4,4,Non,Non,2026-04-21
+ADH-0015,Tech Industries,Finance & Assurance,Industrie & Infrastructures,Souss-Massa,TPE (1-10),3.9,64,50,100,29,36,40,0,Modéré,4,4,Oui,Non,2026-04-21
+ADH-0016,Global International,Logistique & Transport,Tech & Services,Casablanca-Settat,PME (11-50),44.4,91,50,100,0,55,60,0,Modéré,6,6,Non,Oui,2026-04-21
+ADH-0017,Green Consulting,Éducation & Formation,Tech & Services,Casablanca-Settat,Grande Entreprise (250+),1163,70,49,100,32,27,40,0,Modéré,5,3,Oui,Non,2026-04-21
+ADH-0018,Sahara Finance,Distribution & Retail,Art de vivre & Santé,Oriental,Grande Entreprise (250+),1318.2,5,38,33,5,9,100,100,À risque,1,1,Oui,Oui,2026-04-21
+ADH-0019,Méditerranée Tech,IT & Digital,Tech & Services,Oriental,TPE (1-10),4.8,81,61,100,35,36,100,0,Actif engagé,3,4,Oui,Oui,2026-04-21
+ADH-0020,Tech Services,Automobile,Industrie & Infrastructures,Casablanca-Settat,PME (11-50),12.4,65,49,100,22,36,40,0,Modéré,5,4,Oui,Non,2026-04-21
+ADH-0021,First Export,IT & Digital,Agrotech,Casablanca-Settat,ETI (51-250),298.8,55,53,100,21,36,40,50,Modéré,3,4,Oui,Non,2026-04-21
+ADH-0022,Prime Consulting,IT & Digital,Agrotech,Casablanca-Settat,PME (11-50),5.9,66,44,100,0,27,60,0,Modéré,4,3,Non,Oui,2026-04-21
+ADH-0023,Atlas Solutions,Industrie manufacturière,Industrie & Infrastructures,Fès-Meknès,TPE (1-10),0.8,44,62,100,13,18,100,100,Actif engagé,6,2,Oui,Oui,2026-04-21
+ADH-0024,Green Engineering,Conseil & Services,Cleantech,Marrakech-Safi,TPE (1-10),2.9,43,55,100,15,27,40,100,Modéré,4,3,Oui,Non,2026-04-21
+ADH-0025,Global Trading,Agroalimentaire,Industrie & Infrastructures,Fès-Meknès,ETI (51-250),138.6,72,65,100,25,45,100,50,Actif engagé,4,5,Oui,Oui,2026-04-21
+ADH-0026,Pro Pharma,Finance & Assurance,Art de vivre & Santé,Marrakech-Safi,TPE (1-10),3.8,70,38,33,30,27,100,0,À risque,1,3,Oui,Oui,2026-04-21
+ADH-0027,Rif Finance,Logistique & Transport,Agrotech,Casablanca-Settat,ETI (51-250),119.6,56,27,33,24,27,40,0,À risque,1,3,Oui,Non,2026-04-21
+ADH-0028,Tech Consulting,BTP & Immobilier,Tech & Services,Casablanca-Settat,TPE (1-10),4.9,30,42,67,15,9,40,100,Modéré,2,1,Oui,Non,2026-04-21
+ADH-0029,Smart Energy,IT & Digital,Agrotech,Casablanca-Settat,ETI (51-250),91.2,16,15,0,9,9,40,50,Dormant,0,1,Oui,Non,2026-04-21
+ADH-0030,Prime Tech,Textile & Mode,Tech & Services,Souss-Massa,PME (11-50),34.8,65,64,100,25,36,100,50,Actif engagé,6,4,Oui,Oui,2026-04-21
+ADH-0031,Euro Trading,BTP & Immobilier,Industrie & Infrastructures,Marrakech-Safi,ETI (51-250),65.2,22,60,100,4,18,100,100,Actif engagé,5,2,Oui,Oui,2026-04-21
+ADH-0032,Nova Energy,Santé & Pharma,Tech & Services,Marrakech-Safi,PME (11-50),7.6,20,40,33,11,9,100,100,Modéré,1,1,Oui,Oui,2026-04-21
+ADH-0033,Optima Solutions,Finance & Assurance,Tech & Services,Rabat-Salé-Kénitra,TPE (1-10),1,27,42,100,0,9,0,100,Modéré,3,1,Non,Non,2026-04-21
+ADH-0034,Maghreb Agri,Agroalimentaire,Industrie & Infrastructures,Casablanca-Settat,PME (11-50),30.4,82,62,100,31,45,100,0,Actif engagé,7,5,Oui,Oui,2026-04-21
+ADH-0035,Pro Export,Énergie & Environnement,Agrotech,Rabat-Salé-Kénitra,Grande Entreprise (250+),522.5,70,49,100,24,36,40,0,Modéré,3,4,Oui,Non,2026-04-21
+ADH-0036,Maroc Industries,Logistique & Transport,Industrie & Infrastructures,Rabat-Salé-Kénitra,ETI (51-250),68.3,8,22,33,0,9,0,100,À risque,1,1,Non,Non,2026-04-21
+ADH-0037,Royal Partners,Télécoms,Industrie & Infrastructures,Casablanca-Settat,TPE (1-10),2.2,60,47,100,24,27,40,0,Modéré,6,3,Oui,Non,2026-04-21
+ADH-0038,Neo Tech,Tourisme & Hôtellerie,Industrie & Infrastructures,Oriental,ETI (51-250),52,31,36,33,10,18,100,50,À risque,1,2,Oui,Oui,2026-04-21
+ADH-0039,Tanger Consulting,Télécoms,Tech & Services,Souss-Massa,ETI (51-250),88.9,80,48,100,0,45,60,0,Modéré,3,5,Non,Oui,2026-04-21
+ADH-0040,Neo Capital,IT & Digital,Industrie & Infrastructures,Souss-Massa,PME (11-50),27.7,46,64,100,15,27,100,100,Actif engagé,4,3,Oui,Oui,2026-04-21
+ADH-0041,Vision Construction,Éducation & Formation,Art de vivre & Santé,Souss-Massa,PME (11-50),20,45,63,100,18,18,100,100,Actif engagé,3,2,Oui,Oui,2026-04-21
+ADH-0042,First Foods,Santé & Pharma,Industrie & Infrastructures,Casablanca-Settat,PME (11-50),5.4,65,47,100,21,27,40,0,Modéré,5,3,Oui,Non,2026-04-21
+ADH-0043,Maghreb Partners,Tourisme & Hôtellerie,Art de vivre & Santé,Souss-Massa,TPE (1-10),1.1,18,31,0,10,18,100,100,À risque,0,2,Oui,Oui,2026-04-21
+ADH-0044,Méditerranée Trading,Finance & Assurance,Tech & Services,Rabat-Salé-Kénitra,TPE (1-10),2.1,51,49,100,0,27,60,50,Modéré,4,3,Non,Oui,2026-04-21
+ADH-0045,Souss International,Distribution & Retail,Industrie & Infrastructures,Casablanca-Settat,Grande Entreprise (250+),342.1,28,40,33,7,18,100,100,Modéré,1,2,Oui,Oui,2026-04-21
+ADH-0046,Tanger International,Distribution & Retail,Agrotech,Rabat-Salé-Kénitra,ETI (51-250),268,54,67,100,19,36,100,100,Actif engagé,4,4,Oui,Oui,2026-04-21
+ADH-0047,Prime Partners,Conseil & Services,Agrotech,Dakhla-Oued Eddahab,Grande Entreprise (250+),679,22,39,67,5,9,40,100,À risque,2,1,Oui,Non,2026-04-21
+ADH-0048,Tanger Partners,Finance & Assurance,Industrie & Infrastructures,Rabat-Salé-Kénitra,PME (11-50),19.9,22,25,33,10,9,40,50,À risque,1,1,Oui,Non,2026-04-21
+ADH-0049,Sahara Transport,Conseil & Services,Agrotech,Casablanca-Settat,PME (11-50),24.6,83,54,100,37,45,40,0,Modéré,5,5,Oui,Non,2026-04-21
+ADH-0050,Africa Transport,IT & Digital,Tech & Services,Casablanca-Settat,TPE (1-10),2.5,90,55,100,39,45,40,0,Modéré,9,5,Oui,Non,2026-04-21
+ADH-0051,Maroc Invest,Télécoms,Cleantech,Casablanca-Settat,TPE (1-10),3.5,65,48,100,24,27,40,0,Modéré,5,3,Oui,Non,2026-04-21
+ADH-0052,Euro Invest,Textile & Mode,Tech & Services,Béni Mellal-Khénifra,TPE (1-10),1.8,89,52,100,34,36,40,0,Modéré,5,4,Oui,Non,2026-04-21
+ADH-0053,Pro Development,Finance & Assurance,Tech & Services,Marrakech-Safi,TPE (1-10),3.3,41,25,33,16,27,40,0,À risque,1,3,Oui,Non,2026-04-21
+ADH-0054,Atlas Tech,Conseil & Services,Art de vivre & Santé,Casablanca-Settat,PME (11-50),31.1,95,57,100,40,55,40,0,Modéré,3,6,Oui,Non,2026-04-21
+ADH-0055,Prime Invest,IT & Digital,Tech & Services,Rabat-Salé-Kénitra,TPE (1-10),3.5,10,32,67,0,9,0,100,À risque,2,1,Non,Non,2026-04-21
+ADH-0056,Franco Solutions,Éducation & Formation,Art de vivre & Santé,Casablanca-Settat,TPE (1-10),1.9,36,63,100,17,18,100,100,Actif engagé,4,2,Oui,Oui,2026-04-21
+ADH-0057,Maghreb Engineering,Logistique & Transport,Industrie & Infrastructures,Tanger-Tétouan,ETI (51-250),163.9,7,14,0,4,9,40,50,Dormant,0,1,Oui,Non,2026-04-21
+ADH-0058,Africa Engineering,Automobile,Industrie & Infrastructures,Rabat-Salé-Kénitra,TPE (1-10),4.5,30,50,67,12,9,100,100,Modéré,2,1,Oui,Oui,2026-04-21
+ADH-0059,Sahara Export,Santé & Pharma,Tech & Services,Casablanca-Settat,ETI (51-250),112.3,80,61,100,36,36,100,0,Actif engagé,5,4,Oui,Oui,2026-04-21
+ADH-0060,Green Finance,Tourisme & Hôtellerie,Agrotech,Oriental,TPE (1-10),4.5,93,41,100,0,55,0,0,Modéré,3,6,Non,Non,2026-04-21
+ADH-0061,Sahara Import,Éducation & Formation,Agrotech,Casablanca-Settat,Grande Entreprise (250+),1578,61,37,100,0,36,0,0,À risque,4,4,Non,Non,2026-04-21
+ADH-0062,Vision Engineering,Conseil & Services,Art de vivre & Santé,Casablanca-Settat,ETI (51-250),121.4,90,26,0,37,55,40,0,À risque,0,6,Oui,Non,2026-04-21
+ADH-0063,Tech Solutions,Automobile,Art de vivre & Santé,Rabat-Salé-Kénitra,PME (11-50),36.2,69,49,100,30,27,40,0,Modéré,3,3,Oui,Non,2026-04-21
+ADH-0064,Global Capital,Santé & Pharma,Industrie & Infrastructures,Casablanca-Settat,Grande Entreprise (250+),651.6,48,50,100,15,27,40,50,Modéré,5,3,Oui,Non,2026-04-21
+ADH-0065,Neo Industries,Éducation & Formation,Cleantech,Tanger-Tétouan,PME (11-50),26.5,27,33,50,13,18,40,50,À risque,1,2,Oui,Non,2026-04-21
+ADH-0066,Global Finance,Industrie manufacturière,Agrotech,Marrakech-Safi,Grande Entreprise (250+),1826.3,68,40,67,27,36,40,0,Modéré,2,4,Oui,Non,2026-04-21
+ADH-0067,Global Energy,BTP & Immobilier,Cleantech,Marrakech-Safi,PME (11-50),35.6,87,54,100,36,45,40,0,Modéré,4,5,Oui,Non,2026-04-21
+ADH-0068,Royal Agri,Santé & Pharma,Industrie & Infrastructures,Casablanca-Settat,Grande Entreprise (250+),1306.2,70,47,100,24,27,40,0,Modéré,3,3,Oui,Non,2026-04-21
+ADH-0069,Royal Foods,Automobile,Tech & Services,Casablanca-Settat,TPE (1-10),2,69,49,100,24,36,40,0,Modéré,7,4,Oui,Non,2026-04-21
+ADH-0070,Africa Logistics,Distribution & Retail,Tech & Services,Casablanca-Settat,TPE (1-10),4.3,23,12,0,8,18,40,0,Dormant,0,2,Oui,Non,2026-04-21
+ADH-0071,Souss Pharma,Agroalimentaire,Tech & Services,Marrakech-Safi,ETI (51-250),60.1,35,61,100,15,9,100,100,Actif engagé,6,1,Oui,Oui,2026-04-21
+ADH-0072,Atlas Agri,Automobile,Industrie & Infrastructures,Marrakech-Safi,TPE (1-10),3.5,75,51,100,32,36,40,0,Modéré,3,4,Oui,Non,2026-04-21
+ADH-0073,Méditerranée International,Tourisme & Hôtellerie,Agrotech,Marrakech-Safi,PME (11-50),40,8,38,33,5,9,100,100,À risque,1,1,Oui,Oui,2026-04-21
+ADH-0074,Nova Industries,Télécoms,Art de vivre & Santé,Tanger-Tétouan,PME (11-50),45.9,88,64,100,40,45,100,0,Actif engagé,6,5,Oui,Oui,2026-04-21
+ADH-0075,Maroc Transport,Industrie manufacturière,Industrie & Infrastructures,Casablanca-Settat,TPE (1-10),1,22,13,0,0,18,60,0,Dormant,0,2,Non,Oui,2026-04-21
+ADH-0076,Nova Group,Énergie & Environnement,Industrie & Infrastructures,Dakhla-Oued Eddahab,PME (11-50),8.1,16,9,0,6,9,40,0,Dormant,0,1,Oui,Non,2026-04-21
+ADH-0077,Smart Consulting,Textile & Mode,Cleantech,Tanger-Tétouan,ETI (51-250),226.8,74,52,100,28,45,40,0,Modéré,4,5,Oui,Non,2026-04-21
+ADH-0078,Vision Logistics,Tourisme & Hôtellerie,Tech & Services,Tanger-Tétouan,PME (11-50),39.9,32,52,100,8,18,40,100,Modéré,3,2,Oui,Non,2026-04-21
+ADH-0079,Tanger Capital,Éducation & Formation,Industrie & Infrastructures,Marrakech-Safi,TPE (1-10),1.8,50,50,100,16,27,40,50,Modéré,3,3,Oui,Non,2026-04-21
+ADH-0080,Nova Agri,Finance & Assurance,Industrie & Infrastructures,Tanger-Tétouan,TPE (1-10),2.7,46,56,100,19,27,40,100,Modéré,4,3,Oui,Non,2026-04-21
+ADH-0081,Rif Partners,Distribution & Retail,Cleantech,Oriental,Grande Entreprise (250+),1796.5,62,46,100,0,36,60,0,Modéré,2,4,Non,Oui,2026-04-21
+ADH-0082,Green Trading,Agroalimentaire,Agrotech,Casablanca-Settat,Grande Entreprise (250+),1130.6,71,40,67,32,27,40,0,Modéré,2,3,Oui,Non,2026-04-21
+ADH-0083,Prime Industries,Agroalimentaire,Agrotech,Dakhla-Oued Eddahab,Grande Entreprise (250+),1476,70,37,100,0,36,0,0,À risque,3,4,Non,Non,2026-04-21
+ADH-0084,Smart Finance,Santé & Pharma,Art de vivre & Santé,Casablanca-Settat,PME (11-50),29.8,92,55,100,34,55,40,0,Modéré,4,6,Oui,Non,2026-04-21
+ADH-0085,Euro Logistics,IT & Digital,Art de vivre & Santé,Casablanca-Settat,TPE (1-10),1.9,57,46,67,22,27,100,0,Modéré,2,3,Oui,Oui,2026-04-21
+ADH-0086,First Energy,Conseil & Services,Tech & Services,Oriental,ETI (51-250),199.2,63,48,100,27,27,40,0,Modéré,4,3,Oui,Non,2026-04-21
+ADH-0087,Souss Partners,Automobile,Tech & Services,Casablanca-Settat,PME (11-50),29,90,66,100,39,55,100,0,Actif engagé,6,6,Oui,Oui,2026-04-21
+ADH-0088,Tech Tech,Industrie manufacturière,Cleantech,Casablanca-Settat,PME (11-50),27.1,93,39,100,0,45,0,0,À risque,7,5,Non,Non,2026-04-21
+ADH-0089,Prime Capital,Automobile,Art de vivre & Santé,Marrakech-Safi,ETI (51-250),78.5,75,52,100,34,36,40,0,Modéré,4,4,Oui,Non,2026-04-21
+ADH-0090,Vision Invest,BTP & Immobilier,Tech & Services,Casablanca-Settat,TPE (1-10),4.8,81,61,100,33,36,100,0,Actif engagé,4,4,Oui,Oui,2026-04-21
+ADH-0091,Tech Construction,Tourisme & Hôtellerie,Art de vivre & Santé,Fès-Meknès,ETI (51-250),106.4,24,43,67,14,18,40,100,Modéré,2,2,Oui,Non,2026-04-21
+ADH-0092,Euro Transport,Textile & Mode,Cleantech,Rabat-Salé-Kénitra,PME (11-50),7.7,84,45,50,31,36,100,0,Modéré,1,4,Oui,Oui,2026-04-21
+ADH-0093,Tanger Invest,Agroalimentaire,Art de vivre & Santé,Tanger-Tétouan,ETI (51-250),188,56,51,100,20,27,40,50,Modéré,3,3,Oui,Non,2026-04-21
+ADH-0094,Prime Export,Tourisme & Hôtellerie,Art de vivre & Santé,Souss-Massa,PME (11-50),15.4,47,49,67,14,27,100,50,Modéré,2,3,Oui,Oui,2026-04-21
+ADH-0095,Pro Engineering,Télécoms,Agrotech,Casablanca-Settat,PME (11-50),33.1,95,65,100,43,45,100,0,Actif engagé,4,5,Oui,Oui,2026-04-21
+ADH-0096,Tech Engineering,Finance & Assurance,Industrie & Infrastructures,Rabat-Salé-Kénitra,PME (11-50),42.2,62,62,100,27,27,100,50,Actif engagé,4,3,Oui,Oui,2026-04-21
+ADH-0097,Euro Agri,Industrie manufacturière,Agrotech,Tanger-Tétouan,TPE (1-10),2.5,24,52,100,11,18,40,100,Modéré,4,2,Oui,Non,2026-04-21
+ADH-0098,Tanger Digital,Santé & Pharma,Industrie & Infrastructures,Fès-Meknès,PME (11-50),31.9,50,37,67,22,27,40,0,À risque,2,3,Oui,Non,2026-04-21
+ADH-0099,Tanger Industries,Agroalimentaire,Industrie & Infrastructures,Rabat-Salé-Kénitra,ETI (51-250),259,88,53,100,39,36,40,0,Modéré,3,4,Oui,Non,2026-04-21
+ADH-0100,Maghreb International,Logistique & Transport,Industrie & Infrastructures,Tanger-Tétouan,TPE (1-10),4.6,19,12,33,0,9,0,0,Dormant,1,1,Non,Non,2026-04-21
+ADH-0101,Vision Energy,Agroalimentaire,Industrie & Infrastructures,Rabat-Salé-Kénitra,PME (11-50),20,71,47,100,24,27,40,0,Modéré,4,3,Oui,Non,2026-04-21
+ADH-0102,Global Export,Logistique & Transport,Tech & Services,Marrakech-Safi,Grande Entreprise (250+),1683.1,70,48,67,32,27,100,0,Modéré,2,3,Oui,Oui,2026-04-21
+ADH-0103,Franco Logistics,Énergie & Environnement,Tech & Services,Casablanca-Settat,ETI (51-250),266.2,70,35,100,0,27,0,0,À risque,4,3,Non,Non,2026-04-21
+ADH-0104,Global Group,IT & Digital,Industrie & Infrastructures,Rabat-Salé-Kénitra,TPE (1-10),3.9,24,50,67,6,18,100,100,Modéré,2,2,Oui,Oui,2026-04-21
+ADH-0105,Tanger Finance,Automobile,Industrie & Infrastructures,Dakhla-Oued Eddahab,ETI (51-250),171.2,89,46,100,0,36,60,0,Modéré,3,4,Non,Oui,2026-04-21
+ADH-0106,Neo International,Conseil & Services,Tech & Services,Rabat-Salé-Kénitra,TPE (1-10),2.3,22,10,0,7,9,40,0,Dormant,0,1,Oui,Non,2026-04-21
+ADH-0107,Casa Pharma,Éducation & Formation,Industrie & Infrastructures,Casablanca-Settat,PME (11-50),18.1,90,55,100,34,55,40,0,Modéré,7,6,Oui,Non,2026-04-21
+ADH-0108,Smart Engineering,Logistique & Transport,Art de vivre & Santé,Tanger-Tétouan,TPE (1-10),1.4,17,50,100,7,9,40,100,Modéré,3,1,Oui,Non,2026-04-21
+ADH-0109,Green Logistics,Éducation & Formation,Cleantech,Marrakech-Safi,PME (11-50),18.4,91,55,100,32,55,40,0,Modéré,2,6,Oui,Non,2026-04-21
+ADH-0110,Tech Energy,Énergie & Environnement,Tech & Services,Rabat-Salé-Kénitra,TPE (1-10),2.9,93,64,100,33,55,100,0,Actif engagé,3,6,Oui,Oui,2026-04-21
+ADH-0111,Neo Engineering,Tourisme & Hôtellerie,Agrotech,Marrakech-Safi,TPE (1-10),2.3,94,57,100,39,55,40,0,Modéré,3,6,Oui,Non,2026-04-21
+ADH-0112,Africa Invest,Distribution & Retail,Industrie & Infrastructures,Casablanca-Settat,TPE (1-10),2.7,19,9,0,5,9,40,0,Dormant,0,1,Oui,Non,2026-04-21
+ADH-0113,Nova Capital,Éducation & Formation,Art de vivre & Santé,Marrakech-Safi,PME (11-50),9.5,73,60,100,25,45,100,0,Actif engagé,4,5,Oui,Oui,2026-04-21
+ADH-0114,Global Pharma,Automobile,Industrie & Infrastructures,Rabat-Salé-Kénitra,PME (11-50),48.6,95,41,100,0,55,0,0,Modéré,8,6,Non,Non,2026-04-21
+ADH-0115,Vision Solutions,Éducation & Formation,Industrie & Infrastructures,Rabat-Salé-Kénitra,PME (11-50),43.7,88,55,100,39,45,40,0,Modéré,6,5,Oui,Non,2026-04-21
+ADH-0116,Tech Group,Tourisme & Hôtellerie,Tech & Services,Tanger-Tétouan,TPE (1-10),3.6,85,63,100,34,45,100,0,Actif engagé,9,5,Oui,Oui,2026-04-21
+ADH-0117,Global Consulting,Distribution & Retail,Agrotech,Tanger-Tétouan,PME (11-50),25,36,64,100,15,27,100,100,Actif engagé,4,3,Oui,Oui,2026-04-21
+ADH-0118,Franco Group,Conseil & Services,Art de vivre & Santé,Tanger-Tétouan,TPE (1-10),1.2,72,48,100,0,45,60,0,Modéré,4,5,Non,Oui,2026-04-21
+ADH-0119,Sahara International,Agroalimentaire,Industrie & Infrastructures,Tanger-Tétouan,TPE (1-10),3.3,17,30,33,9,9,40,100,À risque,1,1,Oui,Non,2026-04-21
+ADH-0120,Royal Engineering,Logistique & Transport,Tech & Services,Oriental,PME (11-50),16.5,59,26,33,19,27,40,0,À risque,1,3,Oui,Non,2026-04-21
+ADH-0121,Pro Finance,Automobile,Agrotech,Tanger-Tétouan,PME (11-50),49.4,67,51,100,30,36,40,0,Modéré,4,4,Oui,Non,2026-04-21
+ADH-0122,Rif Development,Éducation & Formation,Tech & Services,Oriental,PME (11-50),22.2,60,37,100,0,36,0,0,À risque,3,4,Non,Non,2026-04-21
+ADH-0123,Atlas Invest,Textile & Mode,Cleantech,Souss-Massa,TPE (1-10),4.4,81,37,100,0,36,0,0,À risque,6,4,Non,Non,2026-04-21
+ADH-0124,Euro Engineering,Tourisme & Hôtellerie,Industrie & Infrastructures,Casablanca-Settat,TPE (1-10),3.4,22,52,67,14,18,100,100,Modéré,2,2,Oui,Oui,2026-04-21
+ADH-0125,Vision Pharma,BTP & Immobilier,Industrie & Infrastructures,Marrakech-Safi,TPE (1-10),0.7,73,67,100,32,45,100,50,Actif engagé,3,5,Oui,Oui,2026-04-21
+ADH-0126,Euro Capital,Industrie manufacturière,Agrotech,Fès-Meknès,TPE (1-10),1.1,57,27,67,0,36,0,0,À risque,2,4,Non,Non,2026-04-21
+ADH-0127,Tanger Energy,Distribution & Retail,Art de vivre & Santé,Casablanca-Settat,TPE (1-10),4.1,66,39,33,28,36,100,0,À risque,1,4,Oui,Oui,2026-04-21
+ADH-0128,First Invest,Textile & Mode,Tech & Services,Tanger-Tétouan,Grande Entreprise (250+),921.8,32,53,100,13,18,40,100,Modéré,4,2,Oui,Non,2026-04-21
+ADH-0129,Pro Import,Finance & Assurance,Art de vivre & Santé,Fès-Meknès,TPE (1-10),4.2,69,64,100,28,36,100,50,Actif engagé,4,4,Oui,Oui,2026-04-21
+ADH-0130,Smart Industries,Tourisme & Hôtellerie,Industrie & Infrastructures,Marrakech-Safi,ETI (51-250),105.3,24,11,0,13,9,40,0,Dormant,0,1,Oui,Non,2026-04-21
+ADH-0131,Casa Services,BTP & Immobilier,Cleantech,Rabat-Salé-Kénitra,PME (11-50),10.2,76,46,100,0,36,60,0,Modéré,6,4,Non,Oui,2026-04-21
+ADH-0132,Africa Foods,Énergie & Environnement,Art de vivre & Santé,Casablanca-Settat,Grande Entreprise (250+),1012.5,64,61,100,24,27,100,50,Actif engagé,3,3,Oui,Oui,2026-04-21
+ADH-0133,Smart Agri,Textile & Mode,Art de vivre & Santé,Rabat-Salé-Kénitra,ETI (51-250),142.6,89,62,100,32,45,100,0,Actif engagé,4,5,Oui,Oui,2026-04-21
+ADH-0134,Méditerranée Consulting,Finance & Assurance,Art de vivre & Santé,Casablanca-Settat,Grande Entreprise (250+),909.7,86,62,100,31,45,100,0,Actif engagé,6,5,Oui,Oui,2026-04-21
+ADH-0135,Casa Foods,Agroalimentaire,Tech & Services,Fès-Meknès,PME (11-50),31.9,70,49,100,31,27,40,0,Modéré,5,3,Oui,Non,2026-04-21
+ADH-0136,Souss Services,Distribution & Retail,Cleantech,Rabat-Salé-Kénitra,TPE (1-10),4.2,7,21,0,0,9,60,100,À risque,0,1,Non,Oui,2026-04-21
+ADH-0137,Souss Capital,Distribution & Retail,Cleantech,Casablanca-Settat,PME (11-50),5.1,83,51,100,30,36,40,0,Modéré,3,4,Oui,Non,2026-04-21
+ADH-0138,Casa Invest,Éducation & Formation,Cleantech,Oriental,PME (11-50),21.1,45,34,100,0,18,0,0,À risque,2,2,Non,Non,2026-04-21
+ADH-0139,Atlas International,Conseil & Services,Tech & Services,Rabat-Salé-Kénitra,TPE (1-10),2.4,92,54,100,37,45,40,0,Modéré,3,5,Oui,Non,2026-04-21
+ADH-0140,Green Transport,Agroalimentaire,Agrotech,Tanger-Tétouan,ETI (51-250),286.4,59,35,100,0,27,0,0,À risque,5,3,Non,Non,2026-04-21
+ADH-0141,Prime Pharma,BTP & Immobilier,Art de vivre & Santé,Fès-Meknès,TPE (1-10),2.4,70,50,100,32,27,40,0,Modéré,4,3,Oui,Non,2026-04-21
+ADH-0142,Maroc Solutions,Énergie & Environnement,Tech & Services,Casablanca-Settat,PME (11-50),10.7,7,15,0,7,9,40,50,Dormant,0,1,Oui,Non,2026-04-21
+ADH-0143,Green Tech,Logistique & Transport,Agrotech,Souss-Massa,PME (11-50),9.5,18,31,33,0,9,60,100,À risque,1,1,Non,Oui,2026-04-21
+ADH-0144,Global Foods,Télécoms,Industrie & Infrastructures,Casablanca-Settat,ETI (51-250),256.9,66,39,33,26,36,100,0,À risque,1,4,Oui,Oui,2026-04-21
+ADH-0145,Franco Construction,Énergie & Environnement,Tech & Services,Casablanca-Settat,TPE (1-10),4.8,53,66,100,21,27,100,100,Actif engagé,3,3,Oui,Oui,2026-04-21
+ADH-0146,First Import,Énergie & Environnement,Tech & Services,Casablanca-Settat,ETI (51-250),65,32,53,100,12,18,40,100,Modéré,4,2,Oui,Non,2026-04-21
+ADH-0147,Méditerranée Invest,Distribution & Retail,Tech & Services,Casablanca-Settat,TPE (1-10),0.7,91,41,100,0,55,0,0,Modéré,3,6,Non,Non,2026-04-21
+ADH-0148,Nova Digital,IT & Digital,Cleantech,Casablanca-Settat,PME (11-50),15.1,75,51,100,32,36,40,0,Modéré,6,4,Oui,Non,2026-04-21
+ADH-0149,Tanger Transport,IT & Digital,Art de vivre & Santé,Oriental,Grande Entreprise (250+),1956.7,32,37,100,0,9,0,50,À risque,3,1,Non,Non,2026-04-21
+ADH-0150,Tanger Export,Distribution & Retail,Art de vivre & Santé,Casablanca-Settat,TPE (1-10),2.1,66,48,100,28,27,40,0,Modéré,4,3,Oui,Non,2026-04-21
+ADH-0151,Maroc Services,Industrie manufacturière,Art de vivre & Santé,Rabat-Salé-Kénitra,PME (11-50),38.6,35,20,33,9,9,40,0,À risque,1,1,Oui,Non,2026-04-21
+ADH-0152,Sahara Partners,Conseil & Services,Cleantech,Casablanca-Settat,PME (11-50),31.8,66,43,50,30,27,100,0,Modéré,1,3,Oui,Oui,2026-04-21
+ADH-0153,Optima Group,Finance & Assurance,Industrie & Infrastructures,Rabat-Salé-Kénitra,TPE (1-10),3.5,73,39,100,0,45,0,0,À risque,5,5,Non,Non,2026-04-21
+ADH-0154,Global Logistics,IT & Digital,Industrie & Infrastructures,Casablanca-Settat,PME (11-50),20.5,18,31,33,12,9,40,100,À risque,1,1,Oui,Non,2026-04-21
+ADH-0155,Smart Digital,Finance & Assurance,Art de vivre & Santé,Tanger-Tétouan,Grande Entreprise (250+),971.9,59,60,100,20,27,100,50,Actif engagé,3,3,Oui,Oui,2026-04-21
+ADH-0156,Casa Industries,Logistique & Transport,Agrotech,Casablanca-Settat,ETI (51-250),82.3,41,14,33,0,18,0,0,Dormant,1,2,Non,Non,2026-04-21
+ADH-0157,Pro Partners,Agroalimentaire,Industrie & Infrastructures,Dakhla-Oued Eddahab,TPE (1-10),0.7,92,64,100,41,45,100,0,Actif engagé,4,5,Oui,Oui,2026-04-21
+ADH-0158,Franco Transport,Textile & Mode,Cleantech,Casablanca-Settat,Grande Entreprise (250+),1010.1,25,43,50,5,9,100,100,Modéré,1,1,Oui,Oui,2026-04-21
+ADH-0159,Franco International,Distribution & Retail,Tech & Services,Béni Mellal-Khénifra,TPE (1-10),0.9,16,15,0,9,9,40,50,Dormant,0,1,Oui,Non,2026-04-21
+ADH-0160,Nova Development,Santé & Pharma,Tech & Services,Dakhla-Oued Eddahab,PME (11-50),38.6,64,47,67,26,27,100,0,Modéré,2,3,Oui,Oui,2026-04-21
+ADH-0161,Maroc Digital,Finance & Assurance,Tech & Services,Marrakech-Safi,PME (11-50),13.7,77,63,100,34,45,100,0,Actif engagé,4,5,Oui,Oui,2026-04-21
+ADH-0162,Souss Consulting,Automobile,Tech & Services,Tanger-Tétouan,Grande Entreprise (250+),1324.1,56,38,67,25,27,40,0,À risque,2,3,Oui,Non,2026-04-21
+ADH-0163,Prime Transport,Distribution & Retail,Industrie & Infrastructures,Casablanca-Settat,Grande Entreprise (250+),1393.1,23,41,33,8,18,100,100,Modéré,1,2,Oui,Oui,2026-04-21
+ADH-0164,Prime Solutions,Logistique & Transport,Cleantech,Rabat-Salé-Kénitra,PME (11-50),40.8,64,49,100,30,27,40,0,Modéré,4,3,Oui,Non,2026-04-21
+ADH-0165,Maroc Tech,Logistique & Transport,Industrie & Infrastructures,Casablanca-Settat,PME (11-50),21.6,48,51,67,20,27,100,50,Modéré,2,3,Oui,Oui,2026-04-21
+ADH-0166,Optima Agri,Santé & Pharma,Agrotech,Tanger-Tétouan,TPE (1-10),3,82,50,100,28,36,40,0,Modéré,5,4,Oui,Non,2026-04-21
+ADH-0167,Vision Trading,Énergie & Environnement,Cleantech,Béni Mellal-Khénifra,ETI (51-250),87.7,21,44,50,7,9,100,100,Modéré,1,1,Oui,Oui,2026-04-21
+ADH-0168,Franco Export,Agroalimentaire,Tech & Services,Casablanca-Settat,ETI (51-250),59.8,10,13,0,0,9,40,50,Dormant,0,1,Oui,Non,2026-04-21
+ADH-0169,Green Agri,Automobile,Tech & Services,Casablanca-Settat,Grande Entreprise (250+),958.6,63,46,100,0,36,60,0,Modéré,3,4,Non,Oui,2026-04-21
+ADH-0170,Franco Consulting,Santé & Pharma,Art de vivre & Santé,Oriental,ETI (51-250),113,48,63,100,19,18,100,100,Actif engagé,5,2,Oui,Oui,2026-04-21
+ADH-0171,Nova Invest,Automobile,Tech & Services,Rabat-Salé-Kénitra,Grande Entreprise (250+),1487.4,86,54,100,36,45,40,0,Modéré,5,5,Oui,Non,2026-04-21
+ADH-0172,Euro Finance,Textile & Mode,Art de vivre & Santé,Casablanca-Settat,TPE (1-10),4.2,51,50,100,20,18,40,50,Modéré,5,2,Oui,Non,2026-04-21
+ADH-0173,Méditerranée Industries,Énergie & Environnement,Agrotech,Fès-Meknès,Grande Entreprise (250+),880.9,58,67,100,19,36,100,100,Actif engagé,4,4,Oui,Oui,2026-04-21
+ADH-0174,Royal Services,Agroalimentaire,Industrie & Infrastructures,Tanger-Tétouan,PME (11-50),9.6,95,56,100,42,45,40,0,Modéré,3,5,Oui,Non,2026-04-21
+ADH-0175,Africa Services,Automobile,Cleantech,Fès-Meknès,ETI (51-250),242.8,89,60,100,32,36,100,0,Actif engagé,9,4,Oui,Oui,2026-04-21
+ADH-0176,Global Partners,Finance & Assurance,Tech & Services,Rabat-Salé-Kénitra,TPE (1-10),3.2,58,53,100,21,36,40,50,Modéré,3,4,Oui,Non,2026-04-21
+ADH-0177,Souss Tech,Distribution & Retail,Industrie & Infrastructures,Souss-Massa,ETI (51-250),142,21,51,100,5,18,40,100,Modéré,3,2,Oui,Non,2026-04-21
+ADH-0178,Africa Digital,Santé & Pharma,Cleantech,Béni Mellal-Khénifra,PME (11-50),41.8,55,40,50,20,27,100,0,Modéré,1,3,Oui,Oui,2026-04-21
+ADH-0179,Méditerranée Finance,Télécoms,Art de vivre & Santé,Oriental,ETI (51-250),262.8,78,61,100,29,45,100,0,Actif engagé,4,5,Oui,Oui,2026-04-21
+ADH-0180,Green Services,Éducation & Formation,Industrie & Infrastructures,Rabat-Salé-Kénitra,TPE (1-10),4.2,59,54,100,23,36,40,50,Modéré,3,4,Oui,Non,2026-04-21
+ADH-0181,Maghreb Development,Santé & Pharma,Cleantech,Tanger-Tétouan,TPE (1-10),5,69,64,100,25,36,100,50,Actif engagé,3,4,Oui,Oui,2026-04-21
+ADH-0182,Franco Services,Automobile,Tech & Services,Tanger-Tétouan,PME (11-50),36.3,75,51,100,32,36,40,0,Modéré,4,4,Oui,Non,2026-04-21
+ADH-0183,Optima Industries,Télécoms,Industrie & Infrastructures,Tanger-Tétouan,PME (11-50),14.7,61,35,100,0,27,0,0,À risque,3,3,Non,Non,2026-04-21
+ADH-0184,Green Construction,Agroalimentaire,Art de vivre & Santé,Rabat-Salé-Kénitra,ETI (51-250),125.3,22,25,33,10,9,40,50,À risque,1,1,Oui,Non,2026-04-21
+ADH-0185,Vision Agri,Logistique & Transport,Tech & Services,Tanger-Tétouan,Grande Entreprise (250+),1314.5,76,27,67,0,36,0,0,À risque,2,4,Non,Non,2026-04-21
+ADH-0186,Souss Export,Automobile,Agrotech,Casablanca-Settat,TPE (1-10),3.3,45,34,100,0,18,0,0,À risque,4,2,Non,Non,2026-04-21
+ADH-0187,Sahara Invest,Finance & Assurance,Art de vivre & Santé,Tanger-Tétouan,ETI (51-250),66.9,68,38,67,26,27,40,0,À risque,2,3,Oui,Non,2026-04-21
+ADH-0188,Maghreb Pharma,Textile & Mode,Industrie & Infrastructures,Casablanca-Settat,TPE (1-10),0.6,92,63,100,34,45,100,0,Actif engagé,5,5,Oui,Oui,2026-04-21
+ADH-0189,Nova Import,Distribution & Retail,Agrotech,Tanger-Tétouan,PME (11-50),20.9,47,37,67,23,27,40,0,À risque,2,3,Oui,Non,2026-04-21
+ADH-0190,Neo Energy,Finance & Assurance,Agrotech,Souss-Massa,PME (11-50),7.8,53,51,100,18,27,40,50,Modéré,4,3,Oui,Non,2026-04-21
+ADH-0191,Rif Group,Distribution & Retail,Tech & Services,Fès-Meknès,PME (11-50),19.2,47,25,67,0,27,0,0,À risque,2,3,Non,Non,2026-04-21
+ADH-0192,Tanger Group,Distribution & Retail,Tech & Services,Souss-Massa,Grande Entreprise (250+),906.9,48,48,100,15,18,40,50,Modéré,4,2,Oui,Non,2026-04-21
+ADH-0193,Casa Partners,Textile & Mode,Industrie & Infrastructures,Oriental,PME (11-50),45.3,73,61,100,26,45,100,0,Actif engagé,4,5,Oui,Oui,2026-04-21
+ADH-0194,Smart Export,Logistique & Transport,Industrie & Infrastructures,Rabat-Salé-Kénitra,Grande Entreprise (250+),753.4,78,59,100,28,36,100,0,Modéré,4,4,Oui,Oui,2026-04-21
+ADH-0195,Global Agri,Éducation & Formation,Tech & Services,Casablanca-Settat,PME (11-50),19.5,63,47,100,24,27,40,0,Modéré,5,3,Oui,Non,2026-04-21
+ADH-0196,Euro Foods,Tourisme & Hôtellerie,Industrie & Infrastructures,Casablanca-Settat,TPE (1-10),3.6,40,65,100,20,27,100,100,Actif engagé,6,3,Oui,Oui,2026-04-21
+ADH-0197,First Partners,Tourisme & Hôtellerie,Industrie & Infrastructures,Casablanca-Settat,TPE (1-10),4.9,85,52,100,34,36,40,0,Modéré,6,4,Oui,Non,2026-04-21
+ADH-0198,Méditerranée Digital,Distribution & Retail,Tech & Services,Casablanca-Settat,PME (11-50),47.9,40,39,100,0,18,0,50,À risque,3,2,Non,Non,2026-04-21
+ADH-0199,Maghreb Services,Agroalimentaire,Cleantech,Rabat-Salé-Kénitra,ETI (51-250),141.6,86,48,100,0,45,60,0,Modéré,4,5,Non,Oui,2026-04-21
+ADH-0200,Optima Services,Finance & Assurance,Industrie & Infrastructures,Casablanca-Settat,TPE (1-10),2.2,68,44,100,0,27,60,0,Modéré,5,3,Non,Oui,2026-04-21
+ADH-0201,Green Partners,Textile & Mode,Industrie & Infrastructures,Casablanca-Settat,TPE (1-10),1.6,62,62,100,26,27,100,50,Actif engagé,3,3,Oui,Oui,2026-04-21
+ADH-0202,Africa Finance,Agroalimentaire,Industrie & Infrastructures,Casablanca-Settat,PME (11-50),36.7,61,35,100,0,27,0,0,À risque,6,3,Non,Non,2026-04-21
+ADH-0203,Rif Consulting,Automobile,Industrie & Infrastructures,Casablanca-Settat,PME (11-50),12.8,29,54,100,16,18,40,100,Modéré,3,2,Oui,Non,2026-04-21
+ADH-0204,Tech Finance,Conseil & Services,Tech & Services,Casablanca-Settat,ETI (51-250),228,55,38,67,25,27,40,0,À risque,2,3,Oui,Non,2026-04-21
+ADH-0205,Rif Services,IT & Digital,Tech & Services,Casablanca-Settat,Grande Entreprise (250+),913.5,15,14,0,6,9,40,50,Dormant,0,1,Oui,Non,2026-04-21
+ADH-0206,Euro Development,Industrie manufacturière,Cleantech,Casablanca-Settat,TPE (1-10),2.3,63,46,100,0,36,60,0,Modéré,5,4,Non,Oui,2026-04-21
+ADH-0207,Royal Capital,Finance & Assurance,Art de vivre & Santé,Marrakech-Safi,TPE (1-10),3.6,74,53,100,31,45,40,0,Modéré,6,5,Oui,Non,2026-04-21
+ADH-0208,Vision Transport,Automobile,Industrie & Infrastructures,Casablanca-Settat,PME (11-50),24.5,19,25,33,7,9,40,50,À risque,1,1,Oui,Non,2026-04-21
+ADH-0209,Royal Tech,Automobile,Tech & Services,Casablanca-Settat,PME (11-50),15.1,90,55,100,32,55,40,0,Modéré,7,6,Oui,Non,2026-04-21
+ADH-0210,Rif Pharma,Santé & Pharma,Art de vivre & Santé,Casablanca-Settat,TPE (1-10),1.9,85,46,100,0,36,60,0,Modéré,4,4,Non,Oui,2026-04-21
+ADH-0211,Nova Transport,Automobile,Art de vivre & Santé,Souss-Massa,PME (11-50),37.4,84,38,67,0,45,60,0,À risque,2,5,Non,Oui,2026-04-21
+ADH-0212,Nova Logistics,Finance & Assurance,Tech & Services,Casablanca-Settat,PME (11-50),23.7,81,51,100,30,36,40,0,Modéré,5,4,Oui,Non,2026-04-21
+ADH-0213,Euro Pharma,Conseil & Services,Tech & Services,Casablanca-Settat,TPE (1-10),2.3,88,62,100,33,45,100,0,Actif engagé,7,5,Oui,Oui,2026-04-21
+ADH-0214,Sahara Foods,Textile & Mode,Agrotech,Casablanca-Settat,PME (11-50),20.3,58,47,100,20,27,40,0,Modéré,3,3,Oui,Non,2026-04-21
+ADH-0215,Franco Engineering,Logistique & Transport,Industrie & Infrastructures,Casablanca-Settat,TPE (1-10),1.6,73,51,100,30,36,40,0,Modéré,5,4,Oui,Non,2026-04-21
+ADH-0216,Africa Agri,Textile & Mode,Cleantech,Tanger-Tétouan,ETI (51-250),253.4,55,67,100,21,36,100,100,Actif engagé,3,4,Oui,Oui,2026-04-21
+ADH-0217,Prime Energy,Télécoms,Art de vivre & Santé,Rabat-Salé-Kénitra,TPE (1-10),0.9,46,35,100,0,27,0,0,À risque,3,3,Non,Non,2026-04-21
+ADH-0218,Souss Trading,Tourisme & Hôtellerie,Tech & Services,Tanger-Tétouan,ETI (51-250),120.3,48,25,33,15,27,40,0,À risque,1,3,Oui,Non,2026-04-21
+ADH-0219,Atlas Consulting,Textile & Mode,Agrotech,Casablanca-Settat,TPE (1-10),3.8,61,70,100,29,36,100,100,Actif engagé,6,4,Oui,Oui,2026-04-21
+ADH-0220,Africa Group,Tourisme & Hôtellerie,Agrotech,Tanger-Tétouan,PME (11-50),29.9,16,8,0,2,9,40,0,Dormant,0,1,Oui,Non,2026-04-21
+ADH-0221,Prime Finance,Conseil & Services,Agrotech,Béni Mellal-Khénifra,PME (11-50),32.5,36,12,0,10,18,40,0,Dormant,0,2,Oui,Non,2026-04-21
+ADH-0222,Méditerranée Capital,Santé & Pharma,Industrie & Infrastructures,Casablanca-Settat,TPE (1-10),1.4,54,51,100,0,36,60,50,Modéré,7,4,Non,Oui,2026-04-21
+ADH-0223,Maghreb Group,Automobile,Industrie & Infrastructures,Casablanca-Settat,TPE (1-10),2.8,60,25,67,0,27,0,0,À risque,2,3,Non,Non,2026-04-21
+ADH-0224,Optima Capital,Automobile,Agrotech,Casablanca-Settat,Grande Entreprise (250+),1732.4,92,41,100,0,55,0,0,Modéré,7,6,Non,Non,2026-04-21
+ADH-0225,Neo Transport,Conseil & Services,Industrie & Infrastructures,Rabat-Salé-Kénitra,PME (11-50),21.6,46,34,67,17,18,40,0,À risque,2,2,Oui,Non,2026-04-21
+ADH-0226,Euro Import,Éducation & Formation,Cleantech,Casablanca-Settat,PME (11-50),31.9,31,4,0,0,18,0,0,Dormant,0,2,Non,Non,2026-04-21
+ADH-0227,Souss Import,BTP & Immobilier,Cleantech,Souss-Massa,ETI (51-250),181.1,10,28,0,4,9,100,100,À risque,0,1,Oui,Oui,2026-04-21
+ADH-0228,Maghreb Transport,Industrie manufacturière,Industrie & Infrastructures,Casablanca-Settat,ETI (51-250),160.3,46,27,33,22,27,40,0,À risque,1,3,Oui,Non,2026-04-21
+ADH-0229,Neo Trading,Textile & Mode,Cleantech,Rabat-Salé-Kénitra,PME (11-50),46.4,24,10,0,9,9,40,0,Dormant,0,1,Oui,Non,2026-04-21
+ADH-0230,Franco Invest,Logistique & Transport,Industrie & Infrastructures,Marrakech-Safi,TPE (1-10),4.8,15,17,33,0,9,0,50,Dormant,1,1,Non,Non,2026-04-21
+ADH-0231,Tech Partners,Finance & Assurance,Agrotech,Rabat-Salé-Kénitra,PME (11-50),35.6,38,15,33,0,27,0,0,Dormant,1,3,Non,Non,2026-04-21
+ADH-0232,Rif Engineering,Conseil & Services,Industrie & Infrastructures,Casablanca-Settat,PME (11-50),47.4,12,27,0,1,9,100,100,À risque,0,1,Oui,Oui,2026-04-21
+ADH-0233,Neo Export,Logistique & Transport,Agrotech,Tanger-Tétouan,TPE (1-10),3,67,64,100,29,36,100,50,Actif engagé,5,4,Oui,Oui,2026-04-21
+ADH-0234,Tech Development,Télécoms,Tech & Services,Rabat-Salé-Kénitra,TPE (1-10),4.8,67,63,100,29,27,100,50,Actif engagé,4,3,Oui,Oui,2026-04-21
+ADH-0235,Euro Export,Agroalimentaire,Agrotech,Casablanca-Settat,TPE (1-10),3.5,73,67,100,31,45,100,50,Actif engagé,3,5,Oui,Oui,2026-04-21
+ADH-0236,Tech Logistics,Télécoms,Cleantech,Casablanca-Settat,ETI (51-250),84.3,13,43,50,4,9,100,100,Modéré,1,1,Oui,Oui,2026-04-21
+ADH-0237,Pro Digital,IT & Digital,Industrie & Infrastructures,Marrakech-Safi,ETI (51-250),75,33,37,33,12,18,100,50,À risque,1,2,Oui,Oui,2026-04-21
+ADH-0238,Pro Services,BTP & Immobilier,Tech & Services,Rabat-Salé-Kénitra,PME (11-50),23.3,10,48,67,6,9,100,100,Modéré,2,1,Oui,Oui,2026-04-21
+ADH-0239,Maghreb Solutions,Finance & Assurance,Agrotech,Oriental,ETI (51-250),234.7,22,51,100,11,9,40,100,Modéré,3,1,Oui,Non,2026-04-21
+ADH-0240,Sahara Group,Éducation & Formation,Cleantech,Casablanca-Settat,ETI (51-250),96.6,76,62,100,34,45,100,0,Actif engagé,4,5,Oui,Oui,2026-04-21
+ADH-0241,Optima Consulting,Télécoms,Cleantech,Casablanca-Settat,TPE (1-10),5,74,52,100,26,45,40,0,Modéré,6,5,Oui,Non,2026-04-21
+ADH-0242,Prime Logistics,IT & Digital,Art de vivre & Santé,Tanger-Tétouan,ETI (51-250),90.6,25,26,0,10,18,100,50,À risque,0,2,Oui,Oui,2026-04-21
+ADH-0243,Atlas Import,Énergie & Environnement,Industrie & Infrastructures,Fès-Meknès,TPE (1-10),3.5,33,12,0,17,9,40,0,Dormant,0,1,Oui,Non,2026-04-21
+ADH-0244,Vision Development,Éducation & Formation,Industrie & Infrastructures,Casablanca-Settat,ETI (51-250),71.7,65,61,100,22,27,100,50,Actif engagé,3,3,Oui,Oui,2026-04-21
+ADH-0245,Smart Capital,Télécoms,Tech & Services,Rabat-Salé-Kénitra,PME (11-50),22.3,61,49,100,22,36,40,0,Modéré,4,4,Oui,Non,2026-04-21
+ADH-0246,First Transport,BTP & Immobilier,Art de vivre & Santé,Rabat-Salé-Kénitra,ETI (51-250),223.2,68,49,100,32,27,40,0,Modéré,5,3,Oui,Non,2026-04-21
+ADH-0247,Euro International,Textile & Mode,Agrotech,Casablanca-Settat,PME (11-50),36.1,49,37,67,24,27,40,0,À risque,2,3,Oui,Non,2026-04-21
+ADH-0248,Souss Engineering,Automobile,Agrotech,Marrakech-Safi,PME (11-50),38.6,74,53,100,33,45,40,0,Modéré,4,5,Oui,Non,2026-04-21
+ADH-0249,Pro Trading,Distribution & Retail,Industrie & Infrastructures,Souss-Massa,PME (11-50),31.8,93,39,100,0,45,0,0,À risque,6,5,Non,Non,2026-04-21
+ADH-0250,Green Export,Énergie & Environnement,Tech & Services,Souss-Massa,PME (11-50),10,81,37,100,0,36,0,0,À risque,3,4,Non,Non,2026-04-21
+ADH-0251,Royal International,Énergie & Environnement,Industrie & Infrastructures,Oriental,PME (11-50),10.2,29,12,33,0,9,0,0,Dormant,1,1,Non,Non,2026-04-21
+ADH-0252,Prime Group,Logistique & Transport,Agrotech,Casablanca-Settat,ETI (51-250),164.2,71,35,100,0,27,0,0,À risque,5,3,Non,Non,2026-04-21
+ADH-0253,Pro Tech,Industrie manufacturière,Tech & Services,Rabat-Salé-Kénitra,Grande Entreprise (250+),1688,61,44,100,0,27,60,0,Modéré,4,3,Non,Oui,2026-04-21
+ADH-0254,Maghreb Construction,Énergie & Environnement,Art de vivre & Santé,Casablanca-Settat,PME (11-50),49.7,64,63,100,30,27,100,50,Actif engagé,3,3,Oui,Oui,2026-04-21
+ADH-0255,Euro Construction,Automobile,Industrie & Infrastructures,Marrakech-Safi,TPE (1-10),3.4,39,26,33,17,27,40,0,À risque,1,3,Oui,Non,2026-04-21
+ADH-0256,Prime Development,Textile & Mode,Tech & Services,Marrakech-Safi,Grande Entreprise (250+),1786.7,87,60,100,32,36,100,0,Actif engagé,4,4,Oui,Oui,2026-04-21
+ADH-0257,Royal Import,IT & Digital,Agrotech,Fès-Meknès,TPE (1-10),0.6,39,41,67,17,27,40,50,Modéré,2,3,Oui,Non,2026-04-21
+ADH-0258,Souss Foods,Énergie & Environnement,Art de vivre & Santé,Casablanca-Settat,PME (11-50),47.2,57,53,100,25,27,40,50,Modéré,4,3,Oui,Non,2026-04-21
+ADH-0259,Maroc Consulting,Tourisme & Hôtellerie,Art de vivre & Santé,Casablanca-Settat,TPE (1-10),3.5,83,59,100,28,36,100,0,Modéré,5,4,Oui,Oui,2026-04-21
+ADH-0260,Souss Finance,IT & Digital,Art de vivre & Santé,Marrakech-Safi,PME (11-50),7.5,39,26,33,17,27,40,0,À risque,1,3,Oui,Non,2026-04-21
+ADH-0261,Optima Invest,Éducation & Formation,Tech & Services,Rabat-Salé-Kénitra,TPE (1-10),4.4,64,48,100,25,27,40,0,Modéré,8,3,Oui,Non,2026-04-21
+ADH-0262,Tech Transport,Télécoms,Agrotech,Casablanca-Settat,Grande Entreprise (250+),1364.2,41,15,33,0,27,0,0,Dormant,1,3,Non,Non,2026-04-21
+ADH-0263,Global Construction,Automobile,Tech & Services,Rabat-Salé-Kénitra,PME (11-50),38.9,56,67,100,20,36,100,100,Actif engagé,4,4,Oui,Oui,2026-04-21
+ADH-0264,Maghreb Finance,Textile & Mode,Cleantech,Casablanca-Settat,PME (11-50),11,78,60,100,30,36,100,0,Actif engagé,4,4,Oui,Oui,2026-04-21
+ADH-0265,Franco Pharma,Agroalimentaire,Tech & Services,Tanger-Tétouan,TPE (1-10),0.9,68,49,100,29,27,40,0,Modéré,4,3,Oui,Non,2026-04-21
+ADH-0266,Rif Transport,Industrie manufacturière,Art de vivre & Santé,Oriental,PME (11-50),26.6,43,66,100,21,27,100,100,Actif engagé,5,3,Oui,Oui,2026-04-21
+ADH-0267,Rif Trading,Industrie manufacturière,Tech & Services,Oriental,ETI (51-250),169.7,93,48,100,0,45,60,0,Modéré,5,5,Non,Oui,2026-04-21
+ADH-0268,Tech Capital,Distribution & Retail,Industrie & Infrastructures,Tanger-Tétouan,PME (11-50),29,74,52,100,29,45,40,0,Modéré,4,5,Oui,Non,2026-04-21
+ADH-0269,Smart Foods,Agroalimentaire,Agrotech,Marrakech-Safi,Grande Entreprise (250+),1594.8,30,28,33,14,18,40,50,À risque,1,2,Oui,Non,2026-04-21
+ADH-0270,Royal Industries,Conseil & Services,Cleantech,Rabat-Salé-Kénitra,TPE (1-10),3.1,23,46,50,8,18,100,100,Modéré,1,2,Oui,Oui,2026-04-21
+ADH-0271,Rif Capital,IT & Digital,Cleantech,Fès-Meknès,TPE (1-10),2.7,60,55,100,29,36,40,50,Modéré,7,4,Oui,Non,2026-04-21
+ADH-0272,First Pharma,Industrie manufacturière,Cleantech,Souss-Massa,PME (11-50),38,55,42,50,18,36,100,0,Modéré,1,4,Oui,Oui,2026-04-21
+ADH-0273,First Finance,Logistique & Transport,Tech & Services,Rabat-Salé-Kénitra,TPE (1-10),5,79,46,100,0,36,60,0,Modéré,7,4,Non,Oui,2026-04-21
+ADH-0274,Maghreb Industries,Textile & Mode,Agrotech,Fès-Meknès,TPE (1-10),1.5,85,62,100,38,36,100,0,Actif engagé,4,4,Oui,Oui,2026-04-21
+ADH-0275,Green Foods,Énergie & Environnement,Agrotech,Rabat-Salé-Kénitra,PME (11-50),35,85,64,100,38,45,100,0,Actif engagé,7,5,Oui,Oui,2026-04-21
+ADH-0276,Atlas Finance,Santé & Pharma,Cleantech,Casablanca-Settat,PME (11-50),28.8,46,35,100,0,27,0,0,À risque,2,3,Non,Non,2026-04-21
+ADH-0277,Atlas Digital,Éducation & Formation,Art de vivre & Santé,Rabat-Salé-Kénitra,TPE (1-10),4.1,57,60,100,20,27,100,50,Actif engagé,3,3,Oui,Oui,2026-04-21
+ADH-0278,Optima Digital,Conseil & Services,Agrotech,Casablanca-Settat,TPE (1-10),4.1,23,26,33,14,9,40,50,À risque,1,1,Oui,Non,2026-04-21
+ADH-0279,Pro Solutions,Finance & Assurance,Tech & Services,Rabat-Salé-Kénitra,Grande Entreprise (250+),353.9,39,56,100,17,27,40,100,Modéré,5,3,Oui,Non,2026-04-21
+ADH-0280,Atlas Export,Automobile,Agrotech,Tanger-Tétouan,PME (11-50),34,72,48,100,0,45,60,0,Modéré,5,5,Non,Oui,2026-04-21
+ADH-0281,Green Group,IT & Digital,Industrie & Infrastructures,Tanger-Tétouan,TPE (1-10),4.5,89,64,100,40,45,100,0,Actif engagé,7,5,Oui,Oui,2026-04-21
+ADH-0282,Franco Industries,IT & Digital,Cleantech,Casablanca-Settat,PME (11-50),46.8,17,50,100,7,9,40,100,Modéré,4,1,Oui,Non,2026-04-21
+ADH-0283,Souss Transport,Éducation & Formation,Industrie & Infrastructures,Béni Mellal-Khénifra,PME (11-50),45.3,36,25,0,19,27,100,0,À risque,0,3,Oui,Oui,2026-04-21
+ADH-0284,Neo Import,Agroalimentaire,Tech & Services,Casablanca-Settat,ETI (51-250),63.4,16,59,100,7,9,100,100,Modéré,4,1,Oui,Oui,2026-04-21
+ADH-0285,Franco Agri,Distribution & Retail,Industrie & Infrastructures,Souss-Massa,TPE (1-10),2.3,24,27,33,11,18,40,50,À risque,1,2,Oui,Non,2026-04-21
+ADH-0286,Pro Transport,Finance & Assurance,Industrie & Infrastructures,Casablanca-Settat,PME (11-50),32.8,94,65,100,42,45,100,0,Actif engagé,7,5,Oui,Oui,2026-04-21
+ADH-0287,Tanger Services,Textile & Mode,Tech & Services,Casablanca-Settat,ETI (51-250),88.6,70,50,100,27,36,40,0,Modéré,5,4,Oui,Non,2026-04-21
+ADH-0288,Casa Solutions,BTP & Immobilier,Agrotech,Rabat-Salé-Kénitra,PME (11-50),39.3,68,63,100,30,27,100,50,Actif engagé,3,3,Oui,Oui,2026-04-21
+ADH-0289,Sahara Construction,Logistique & Transport,Agrotech,Rabat-Salé-Kénitra,TPE (1-10),2.3,21,41,67,12,9,40,100,Modéré,2,1,Oui,Non,2026-04-21
+ADH-0290,Franco Development,BTP & Immobilier,Industrie & Infrastructures,Souss-Massa,Grande Entreprise (250+),1624.6,69,35,100,0,27,0,0,À risque,3,3,Non,Non,2026-04-21
+ADH-0291,Africa International,Automobile,Agrotech,Casablanca-Settat,PME (11-50),27.2,62,46,100,20,27,40,0,Modéré,6,3,Oui,Non,2026-04-21
+ADH-0292,Tanger Construction,Conseil & Services,Agrotech,Casablanca-Settat,TPE (1-10),2.1,49,49,100,18,18,40,50,Modéré,4,2,Oui,Non,2026-04-21
+ADH-0293,Optima Trading,Logistique & Transport,Art de vivre & Santé,Tanger-Tétouan,TPE (1-10),0.5,64,40,67,28,36,40,0,Modéré,2,4,Oui,Non,2026-04-21
+ADH-0294,Africa Capital,Logistique & Transport,Industrie & Infrastructures,Casablanca-Settat,ETI (51-250),293.6,86,51,100,32,36,40,0,Modéré,5,4,Oui,Non,2026-04-21
+ADH-0295,Optima Export,IT & Digital,Industrie & Infrastructures,Casablanca-Settat,ETI (51-250),291.1,56,39,67,24,36,40,0,À risque,2,4,Oui,Non,2026-04-21
+ADH-0296,Nova Engineering,Énergie & Environnement,Industrie & Infrastructures,Tanger-Tétouan,TPE (1-10),2.3,95,48,100,0,45,60,0,Modéré,6,5,Non,Oui,2026-04-21
+ADH-0297,Nova Finance,Automobile,Industrie & Infrastructures,Casablanca-Settat,ETI (51-250),56.7,65,40,67,26,36,40,0,Modéré,2,4,Oui,Non,2026-04-21
+ADH-0298,Maroc Construction,Finance & Assurance,Art de vivre & Santé,Fès-Meknès,PME (11-50),18.6,85,34,33,34,45,40,0,À risque,1,5,Oui,Non,2026-04-21
+ADH-0299,Africa Solutions,Logistique & Transport,Tech & Services,Casablanca-Settat,TPE (1-10),2.3,23,43,67,0,18,60,100,Modéré,2,2,Non,Oui,2026-04-21
+ADH-0300,Méditerranée Export,Télécoms,Cleantech,Casablanca-Settat,TPE (1-10),3.4,34,20,0,14,9,100,0,À risque,0,1,Oui,Oui,2026-04-21
+ADH-0301,Pro Invest,Énergie & Environnement,Industrie & Infrastructures,Casablanca-Settat,TPE (1-10),0.7,84,53,100,33,45,40,0,Modéré,5,5,Oui,Non,2026-04-21
+ADH-0302,Casa Logistics,IT & Digital,Tech & Services,Rabat-Salé-Kénitra,Grande Entreprise (250+),1248.6,21,25,33,10,9,40,50,À risque,1,1,Oui,Non,2026-04-21
+ADH-0303,Neo Digital,Automobile,Art de vivre & Santé,Casablanca-Settat,TPE (1-10),1,75,62,100,33,45,100,0,Actif engagé,3,5,Oui,Oui,2026-04-21
+ADH-0304,First Services,Énergie & Environnement,Agrotech,Tanger-Tétouan,TPE (1-10),4,74,53,100,31,45,40,0,Modéré,4,5,Oui,Non,2026-04-21
+ADH-0305,Maghreb Export,Agroalimentaire,Tech & Services,Rabat-Salé-Kénitra,PME (11-50),34.2,66,49,100,30,27,40,0,Modéré,8,3,Oui,Non,2026-04-21
+ADH-0306,Sahara Capital,Santé & Pharma,Agrotech,Casablanca-Settat,Grande Entreprise (250+),694.2,74,51,67,26,45,100,0,Modéré,2,5,Oui,Oui,2026-04-21
+ADH-0307,Global Development,BTP & Immobilier,Art de vivre & Santé,Casablanca-Settat,ETI (51-250),162.4,42,65,100,19,27,100,100,Actif engagé,3,3,Oui,Oui,2026-04-21
+ADH-0308,Rif Logistics,Distribution & Retail,Tech & Services,Souss-Massa,ETI (51-250),194.3,34,12,0,19,9,40,0,Dormant,0,1,Oui,Non,2026-04-21
+ADH-0309,Rif Foods,Agroalimentaire,Agrotech,Casablanca-Settat,TPE (1-10),2.9,76,39,100,0,45,0,0,À risque,3,5,Non,Non,2026-04-21
+ADH-0310,Optima Development,Tourisme & Hôtellerie,Tech & Services,Tanger-Tétouan,TPE (1-10),4.3,67,39,67,29,27,40,0,À risque,2,3,Oui,Non,2026-04-21
+ADH-0311,Nova Solutions,Finance & Assurance,Industrie & Infrastructures,Fès-Meknès,Grande Entreprise (250+),705.6,52,50,100,22,18,40,50,Modéré,4,2,Oui,Non,2026-04-21
+ADH-0312,Neo Services,Santé & Pharma,Tech & Services,Casablanca-Settat,TPE (1-10),1.1,83,61,100,29,45,100,0,Actif engagé,4,5,Oui,Oui,2026-04-21
+ADH-0313,Smart Pharma,Santé & Pharma,Industrie & Infrastructures,Souss-Massa,TPE (1-10),3,41,63,100,12,27,100,100,Actif engagé,3,3,Oui,Oui,2026-04-21
+ADH-0314,Prime Agri,BTP & Immobilier,Tech & Services,Casablanca-Settat,PME (11-50),26.8,15,29,33,6,9,40,100,À risque,1,1,Oui,Non,2026-04-21
+ADH-0315,Green Pharma,Logistique & Transport,Tech & Services,Fès-Meknès,TPE (1-10),2.4,76,51,67,29,45,100,0,Modéré,2,5,Oui,Oui,2026-04-21
+ADH-0316,Atlas Engineering,Conseil & Services,Industrie & Infrastructures,Casablanca-Settat,Grande Entreprise (250+),1213.9,59,47,100,24,27,40,0,Modéré,7,3,Oui,Non,2026-04-21
+ADH-0317,Tech Digital,Agroalimentaire,Art de vivre & Santé,Tanger-Tétouan,PME (11-50),39.9,13,16,0,0,9,60,50,Dormant,0,1,Non,Oui,2026-04-21
+ADH-0318,Tech Trading,Textile & Mode,Tech & Services,Casablanca-Settat,Grande Entreprise (250+),1577.3,86,53,100,31,45,40,0,Modéré,3,5,Oui,Non,2026-04-21
+ADH-0319,Maroc Foods,Éducation & Formation,Agrotech,Rabat-Salé-Kénitra,PME (11-50),14.4,60,37,100,0,36,0,0,À risque,3,4,Non,Non,2026-04-21
+ADH-0320,Sahara Agri,Automobile,Industrie & Infrastructures,Casablanca-Settat,ETI (51-250),251.4,21,34,67,0,18,0,100,À risque,2,2,Non,Non,2026-04-21
+ADH-0321,Optima Finance,Automobile,Industrie & Infrastructures,Tanger-Tétouan,TPE (1-10),1.8,63,46,100,0,36,60,0,Modéré,3,4,Non,Oui,2026-04-21
+ADH-0322,Royal Construction,Télécoms,Agrotech,Casablanca-Settat,PME (11-50),10.7,86,61,100,34,36,100,0,Actif engagé,7,4,Oui,Oui,2026-04-21
+ADH-0323,Africa Energy,Automobile,Art de vivre & Santé,Casablanca-Settat,PME (11-50),33.3,13,38,33,6,9,100,100,À risque,1,1,Oui,Oui,2026-04-21
+ADH-0324,First Logistics,Industrie manufacturière,Tech & Services,Tanger-Tétouan,Grande Entreprise (250+),856.4,76,51,100,29,36,40,0,Modéré,5,4,Oui,Non,2026-04-21
+ADH-0325,Neo Partners,Éducation & Formation,Art de vivre & Santé,Casablanca-Settat,TPE (1-10),2.3,79,52,100,28,45,40,0,Modéré,5,5,Oui,Non,2026-04-21
+ADH-0326,Royal Transport,Éducation & Formation,Industrie & Infrastructures,Tanger-Tétouan,TPE (1-10),4.5,66,61,100,22,27,100,50,Actif engagé,5,3,Oui,Oui,2026-04-21
+ADH-0327,Vision Foods,BTP & Immobilier,Tech & Services,Tanger-Tétouan,PME (11-50),24.9,55,37,33,27,27,100,0,À risque,1,3,Oui,Oui,2026-04-21
+ADH-0328,Vision Tech,Automobile,Art de vivre & Santé,Casablanca-Settat,TPE (1-10),0.9,23,40,33,7,18,100,100,Modéré,1,2,Oui,Oui,2026-04-21
+ADH-0329,Vision International,BTP & Immobilier,Art de vivre & Santé,Rabat-Salé-Kénitra,ETI (51-250),231.5,64,61,100,23,27,100,50,Actif engagé,5,3,Oui,Oui,2026-04-21
+ADH-0330,Neo Consulting,BTP & Immobilier,Agrotech,Casablanca-Settat,ETI (51-250),83.2,49,4,0,0,18,0,0,Dormant,0,2,Non,Non,2026-04-21
+ADH-0331,Atlas Industries,Industrie manufacturière,Art de vivre & Santé,Marrakech-Safi,TPE (1-10),4.9,52,28,33,25,27,40,0,À risque,1,3,Oui,Non,2026-04-21
+ADH-0332,Maroc Engineering,Textile & Mode,Tech & Services,Casablanca-Settat,TPE (1-10),1,51,67,100,25,27,100,100,Actif engagé,4,3,Oui,Oui,2026-04-21
+ADH-0333,Royal Solutions,Santé & Pharma,Cleantech,Casablanca-Settat,Grande Entreprise (250+),1405,24,62,100,13,18,100,100,Actif engagé,2,2,Oui,Oui,2026-04-21
+ADH-0334,Vision Import,Automobile,Agrotech,Casablanca-Settat,PME (11-50),24.9,88,61,100,36,36,100,0,Actif engagé,3,4,Oui,Oui,2026-04-21
+ADH-0335,Royal Consulting,Tourisme & Hôtellerie,Art de vivre & Santé,Marrakech-Safi,ETI (51-250),290.8,52,65,100,19,27,100,100,Actif engagé,4,3,Oui,Oui,2026-04-21
+ADH-0336,Tanger Pharma,Agroalimentaire,Tech & Services,Marrakech-Safi,ETI (51-250),200,83,54,100,34,45,40,0,Modéré,6,5,Oui,Non,2026-04-21
+ADH-0337,Rif Digital,Tourisme & Hôtellerie,Industrie & Infrastructures,Rabat-Salé-Kénitra,TPE (1-10),1.8,17,9,0,4,9,40,0,Dormant,0,1,Oui,Non,2026-04-21
+ADH-0338,Souss Energy,Finance & Assurance,Cleantech,Oriental,TPE (1-10),4.5,21,34,50,4,9,40,100,À risque,1,1,Oui,Non,2026-04-21
+ADH-0339,Royal Development,Éducation & Formation,Tech & Services,Oriental,TPE (1-10),2.1,28,59,100,8,9,100,100,Modéré,3,1,Oui,Oui,2026-04-21
+ADH-0340,Atlas Transport,Agroalimentaire,Tech & Services,Souss-Massa,TPE (1-10),0.7,58,53,100,27,27,40,50,Modéré,4,3,Oui,Non,2026-04-21
+ADH-0341,Neo Development,Agroalimentaire,Tech & Services,Casablanca-Settat,Grande Entreprise (250+),1347.3,64,40,67,27,36,40,0,Modéré,2,4,Oui,Non,2026-04-21
+ADH-0342,First Engineering,BTP & Immobilier,Cleantech,Oriental,PME (11-50),10.2,72,59,100,26,36,100,0,Modéré,3,4,Oui,Oui,2026-04-21
+ADH-0343,Sahara Energy,Énergie & Environnement,Art de vivre & Santé,Fès-Meknès,PME (11-50),12.5,13,29,0,8,9,100,100,À risque,0,1,Oui,Oui,2026-04-21
+ADH-0344,Atlas Capital,Distribution & Retail,Art de vivre & Santé,Casablanca-Settat,PME (11-50),7.9,78,52,100,36,36,40,0,Modéré,5,4,Oui,Non,2026-04-21
+ADH-0345,Maghreb Energy,Éducation & Formation,Industrie & Infrastructures,Casablanca-Settat,TPE (1-10),1.2,16,16,0,0,9,60,50,Dormant,0,1,Non,Oui,2026-04-21
+ADH-0346,Green Industries,BTP & Immobilier,Tech & Services,Casablanca-Settat,ETI (51-250),111.1,15,9,0,4,9,40,0,Dormant,0,1,Oui,Non,2026-04-21
+ADH-0347,Souss Construction,Télécoms,Industrie & Infrastructures,Casablanca-Settat,PME (11-50),42.2,47,51,100,18,27,40,50,Modéré,3,3,Oui,Non,2026-04-21
+ADH-0348,Pro Group,Automobile,Art de vivre & Santé,Casablanca-Settat,PME (11-50),49.2,78,54,100,35,45,40,0,Modéré,6,5,Oui,Non,2026-04-21
+ADH-0349,Euro Tech,Énergie & Environnement,Cleantech,Tanger-Tétouan,TPE (1-10),0.5,74,50,100,29,36,40,0,Modéré,3,4,Oui,Non,2026-04-21
+ADH-0350,Optima Engineering,Logistique & Transport,Industrie & Infrastructures,Souss-Massa,TPE (1-10),5,76,46,100,0,36,60,0,Modéré,3,4,Non,Oui,2026-04-21
+ADH-0351,Global Industries,IT & Digital,Art de vivre & Santé,Rabat-Salé-Kénitra,Grande Entreprise (250+),1727.3,25,24,0,8,9,100,50,À risque,0,1,Oui,Oui,2026-04-21
+ADH-0352,Euro Consulting,IT & Digital,Art de vivre & Santé,Béni Mellal-Khénifra,PME (11-50),27.1,18,23,33,3,9,40,50,À risque,1,1,Oui,Non,2026-04-21
+ADH-0353,Maroc Group,Télécoms,Art de vivre & Santé,Rabat-Salé-Kénitra,PME (11-50),23.6,78,62,100,32,45,100,0,Actif engagé,5,5,Oui,Oui,2026-04-21
+ADH-0354,Nova Consulting,Santé & Pharma,Tech & Services,Souss-Massa,Grande Entreprise (250+),427.2,70,57,100,27,27,100,0,Modéré,5,3,Oui,Oui,2026-04-21
+ADH-0355,Africa Export,Éducation & Formation,Art de vivre & Santé,Rabat-Salé-Kénitra,PME (11-50),25.4,50,34,33,23,18,100,0,À risque,1,2,Oui,Oui,2026-04-21
+ADH-0356,Casa International,Logistique & Transport,Art de vivre & Santé,Casablanca-Settat,TPE (1-10),1,71,51,100,29,36,40,0,Modéré,3,4,Oui,Non,2026-04-21
+ADH-0357,Maroc International,Distribution & Retail,Agrotech,Casablanca-Settat,TPE (1-10),0.7,68,65,100,31,36,100,50,Actif engagé,5,4,Oui,Oui,2026-04-21
+ADH-0358,Méditerranée Development,Santé & Pharma,Industrie & Infrastructures,Casablanca-Settat,TPE (1-10),1.7,64,37,67,22,27,40,0,À risque,2,3,Oui,Non,2026-04-21
+ADH-0359,Atlas Group,Éducation & Formation,Cleantech,Rabat-Salé-Kénitra,PME (11-50),13.9,19,45,50,7,18,100,100,Modéré,1,2,Oui,Oui,2026-04-21
+ADH-0360,Prime Services,Agroalimentaire,Tech & Services,Casablanca-Settat,Grande Entreprise (250+),863.6,40,51,67,11,18,100,100,Modéré,2,2,Oui,Oui,2026-04-21
+ADH-0361,Global Import,Textile & Mode,Art de vivre & Santé,Casablanca-Settat,PME (11-50),35.7,69,57,100,25,27,100,0,Modéré,3,3,Oui,Oui,2026-04-21
+ADH-0362,Sahara Logistics,Conseil & Services,Art de vivre & Santé,Oriental,PME (11-50),6.6,54,28,33,25,27,40,0,À risque,1,3,Oui,Non,2026-04-21
+ADH-0363,Smart Group,Agroalimentaire,Tech & Services,Casablanca-Settat,Grande Entreprise (250+),1012.7,53,43,100,0,18,60,0,Modéré,5,2,Non,Oui,2026-04-21
+ADH-0364,Méditerranée Energy,Santé & Pharma,Industrie & Infrastructures,Oriental,PME (11-50),46.1,26,28,33,13,18,40,50,À risque,1,2,Oui,Non,2026-04-21
+ADH-0365,Sahara Industries,Énergie & Environnement,Tech & Services,Rabat-Salé-Kénitra,TPE (1-10),4.5,5,28,33,0,9,40,100,À risque,1,1,Oui,Non,2026-04-21
+ADH-0366,Sahara Consulting,IT & Digital,Industrie & Infrastructures,Casablanca-Settat,TPE (1-10),2.9,47,23,33,15,18,40,0,À risque,1,2,Oui,Non,2026-04-21
+ADH-0367,Africa Partners,Télécoms,Art de vivre & Santé,Casablanca-Settat,TPE (1-10),1.3,20,26,33,6,18,40,50,À risque,1,2,Oui,Non,2026-04-21
+ADH-0368,Rif Energy,Santé & Pharma,Cleantech,Souss-Massa,Grande Entreprise (250+),364.5,76,36,50,30,36,40,0,À risque,1,4,Oui,Non,2026-04-21
+ADH-0369,Souss Industries,Santé & Pharma,Cleantech,Casablanca-Settat,PME (11-50),46.3,66,32,50,23,27,40,0,À risque,1,3,Oui,Non,2026-04-21
+ADH-0370,Atlas Services,Tourisme & Hôtellerie,Art de vivre & Santé,Marrakech-Safi,TPE (1-10),4,39,14,0,12,27,40,0,Dormant,0,3,Oui,Non,2026-04-21
+ADH-0371,Neo Invest,Textile & Mode,Art de vivre & Santé,Casablanca-Settat,TPE (1-10),1.9,15,14,0,5,9,40,50,Dormant,0,1,Oui,Non,2026-04-21
+ADH-0372,Vision Capital,Automobile,Tech & Services,Tanger-Tétouan,PME (11-50),36.2,65,51,100,29,36,40,0,Modéré,5,4,Oui,Non,2026-04-21
+ADH-0373,Sahara Development,Conseil & Services,Industrie & Infrastructures,Souss-Massa,TPE (1-10),1.1,48,34,100,0,18,0,0,À risque,4,2,Non,Non,2026-04-21
+ADH-0374,Smart Services,Énergie & Environnement,Industrie & Infrastructures,Souss-Massa,Grande Entreprise (250+),889.6,45,56,67,21,27,100,100,Modéré,2,3,Oui,Oui,2026-04-21
+ADH-0375,Franco Foods,BTP & Immobilier,Art de vivre & Santé,Fès-Meknès,ETI (51-250),223.3,60,63,100,24,36,100,50,Actif engagé,4,4,Oui,Oui,2026-04-21
+ADH-0376,First Industries,BTP & Immobilier,Tech & Services,Casablanca-Settat,PME (11-50),23.9,91,55,100,39,45,40,0,Modéré,6,5,Oui,Non,2026-04-21
+ADH-0377,Casa Energy,Distribution & Retail,Agrotech,Casablanca-Settat,ETI (51-250),239.6,35,37,67,15,9,40,50,À risque,2,1,Oui,Non,2026-04-21
+ADH-0378,Euro Industries,Énergie & Environnement,Tech & Services,Casablanca-Settat,TPE (1-10),0.8,51,49,67,21,18,100,50,Modéré,2,2,Oui,Oui,2026-04-21
+ADH-0379,First Solutions,Santé & Pharma,Tech & Services,Casablanca-Settat,ETI (51-250),296.3,83,52,100,29,45,40,0,Modéré,3,5,Oui,Non,2026-04-21
+ADH-0380,Optima Construction,Automobile,Tech & Services,Rabat-Salé-Kénitra,PME (11-50),14.2,66,49,100,29,27,40,0,Modéré,4,3,Oui,Non,2026-04-21
+ADH-0381,Casa Group,Textile & Mode,Art de vivre & Santé,Casablanca-Settat,ETI (51-250),88.4,20,26,33,7,18,40,50,À risque,1,2,Oui,Non,2026-04-21
+ADH-0382,Optima Energy,IT & Digital,Tech & Services,Casablanca-Settat,Grande Entreprise (250+),590.4,58,39,67,23,36,40,0,À risque,2,4,Oui,Non,2026-04-21
+ADH-0383,Casa Tech,Distribution & Retail,Art de vivre & Santé,Tanger-Tétouan,ETI (51-250),273.7,76,53,100,33,45,40,0,Modéré,3,5,Oui,Non,2026-04-21
+ADH-0384,Souss Logistics,Tourisme & Hôtellerie,Art de vivre & Santé,Marrakech-Safi,ETI (51-250),224.1,93,55,100,41,45,40,0,Modéré,7,5,Oui,Non,2026-04-21
+ADH-0385,Pro Energy,Tourisme & Hôtellerie,Tech & Services,Marrakech-Safi,PME (11-50),8.6,64,35,100,0,27,0,0,À risque,4,3,Non,Non,2026-04-21
+ADH-0386,Pro Agri,Automobile,Art de vivre & Santé,Casablanca-Settat,Grande Entreprise (250+),1063.4,93,64,100,39,45,100,0,Actif engagé,4,5,Oui,Oui,2026-04-21
+ADH-0387,Royal Group,Textile & Mode,Art de vivre & Santé,Casablanca-Settat,ETI (51-250),100.5,72,37,100,0,36,0,0,À risque,3,4,Non,Non,2026-04-21
+ADH-0388,Franco Import,Télécoms,Industrie & Infrastructures,Casablanca-Settat,ETI (51-250),147,17,2,0,0,9,0,0,Dormant,0,1,Non,Non,2026-04-21
+ADH-0389,Neo Agri,Tourisme & Hôtellerie,Industrie & Infrastructures,Fès-Meknès,ETI (51-250),78.1,18,8,0,2,9,40,0,Dormant,0,1,Oui,Non,2026-04-21
+ADH-0390,Casa Consulting,Tourisme & Hôtellerie,Tech & Services,Casablanca-Settat,TPE (1-10),1.8,40,41,67,18,27,40,50,Modéré,2,3,Oui,Non,2026-04-21
+ADH-0391,Africa Pharma,Logistique & Transport,Tech & Services,Béni Mellal-Khénifra,PME (11-50),6.7,20,50,67,4,18,100,100,Modéré,2,2,Oui,Oui,2026-04-21
+ADH-0392,Maghreb Import,Logistique & Transport,Industrie & Infrastructures,Tanger-Tétouan,PME (11-50),5.9,68,49,100,24,36,40,0,Modéré,5,4,Oui,Non,2026-04-21
+ADH-0393,Pro Consulting,Éducation & Formation,Art de vivre & Santé,Casablanca-Settat,ETI (51-250),293.6,64,49,100,25,36,40,0,Modéré,4,4,Oui,Non,2026-04-21
+ADH-0394,First Construction,Tourisme & Hôtellerie,Tech & Services,Dakhla-Oued Eddahab,PME (11-50),24.9,42,55,100,14,27,40,100,Modéré,4,3,Oui,Non,2026-04-21
+ADH-0395,Méditerranée Group,Santé & Pharma,Tech & Services,Oriental,TPE (1-10),1.9,17,10,0,7,9,40,0,Dormant,0,1,Oui,Non,2026-04-21
+ADH-0396,Sahara Trading,Télécoms,Cleantech,Marrakech-Safi,TPE (1-10),1.6,16,16,0,11,9,40,50,Dormant,0,1,Oui,Non,2026-04-21
+ADH-0397,Prime Digital,Textile & Mode,Agrotech,Marrakech-Safi,TPE (1-10),3.6,37,54,100,18,18,40,100,Modéré,3,2,Oui,Non,2026-04-21
+ADH-0398,Optima Foods,Automobile,Tech & Services,Casablanca-Settat,PME (11-50),29.8,33,23,33,13,18,40,0,À risque,1,2,Oui,Non,2026-04-21
+ADH-0399,Atlas Development,BTP & Immobilier,Industrie & Infrastructures,Souss-Massa,Grande Entreprise (250+),1625.7,81,60,100,29,36,100,0,Actif engagé,5,4,Oui,Oui,2026-04-21
+ADH-0400,Global Digital,BTP & Immobilier,Cleantech,Marrakech-Safi,TPE (1-10),3.6,39,43,50,12,27,100,50,Modéré,1,3,Oui,Oui,2026-04-21
+ADH-0401,Optima Tech,Industrie manufacturière,Art de vivre & Santé,Casablanca-Settat,TPE (1-10),2.4,47,57,100,23,27,40,100,Modéré,3,3,Oui,Non,2026-04-21
+ADH-0402,Tanger Trading,Logistique & Transport,Agrotech,Rabat-Salé-Kénitra,ETI (51-250),256.1,78,48,100,0,45,60,0,Modéré,7,5,Non,Oui,2026-04-21
+ADH-0403,Tech Pharma,Tourisme & Hôtellerie,Tech & Services,Rabat-Salé-Kénitra,TPE (1-10),3.6,14,14,0,5,9,40,50,Dormant,0,1,Oui,Non,2026-04-21
+ADH-0404,Royal Digital,Distribution & Retail,Cleantech,Rabat-Salé-Kénitra,PME (11-50),41.2,48,25,0,17,27,100,0,À risque,0,3,Oui,Oui,2026-04-21
+ADH-0405,Africa Import,BTP & Immobilier,Industrie & Infrastructures,Fès-Meknès,ETI (51-250),254,23,43,67,12,18,40,100,Modéré,2,2,Oui,Non,2026-04-21
+ADH-0406,Tech International,Conseil & Services,Industrie & Infrastructures,Casablanca-Settat,ETI (51-250),235.2,53,64,100,20,18,100,100,Actif engagé,3,2,Oui,Oui,2026-04-21
+ADH-0407,Franco Partners,Conseil & Services,Tech & Services,Casablanca-Settat,Grande Entreprise (250+),1747.1,19,42,67,10,18,40,100,Modéré,2,2,Oui,Non,2026-04-21
+ADH-0408,Maroc Energy,Télécoms,Industrie & Infrastructures,Rabat-Salé-Kénitra,Grande Entreprise (250+),1774.7,52,35,100,0,27,0,0,À risque,4,3,Non,Non,2026-04-21
+ADH-0409,Global Transport,Télécoms,Agrotech,Tanger-Tétouan,PME (11-50),43.8,65,48,100,25,27,40,0,Modéré,6,3,Oui,Non,2026-04-21
+ADH-0410,Vision Group,BTP & Immobilier,Industrie & Infrastructures,Béni Mellal-Khénifra,PME (11-50),39.3,58,44,100,0,27,60,0,Modéré,6,3,Non,Oui,2026-04-21
+ADH-0411,Smart Solutions,Automobile,Cleantech,Casablanca-Settat,TPE (1-10),2.4,25,11,0,7,18,40,0,Dormant,0,2,Oui,Non,2026-04-21
+ADH-0412,Atlas Pharma,Industrie manufacturière,Industrie & Infrastructures,Tanger-Tétouan,PME (11-50),44.5,89,63,100,35,45,100,0,Actif engagé,7,5,Oui,Oui,2026-04-21
+ADH-0413,Nova Tech,Automobile,Art de vivre & Santé,Rabat-Salé-Kénitra,Grande Entreprise (250+),806.9,47,36,67,20,27,40,0,À risque,2,3,Oui,Non,2026-04-21
+ADH-0414,Franco Energy,Énergie & Environnement,Industrie & Infrastructures,Souss-Massa,ETI (51-250),287,20,27,0,12,18,100,50,À risque,0,2,Oui,Oui,2026-04-21
+ADH-0415,Royal Trading,Industrie manufacturière,Art de vivre & Santé,Fès-Meknès,ETI (51-250),92.2,77,54,100,35,45,40,0,Modéré,6,5,Oui,Non,2026-04-21
+ADH-0416,Tech Agri,BTP & Immobilier,Tech & Services,Casablanca-Settat,TPE (1-10),3.4,8,39,33,8,9,100,100,À risque,1,1,Oui,Oui,2026-04-21
+ADH-0417,Vision Industries,Conseil & Services,Cleantech,Tanger-Tétouan,ETI (51-250),215.6,51,35,100,0,27,0,0,À risque,4,3,Non,Non,2026-04-21
+ADH-0418,Green Import,Tourisme & Hôtellerie,Tech & Services,Casablanca-Settat,TPE (1-10),4,52,37,67,21,27,40,0,À risque,2,3,Oui,Non,2026-04-21
+ADH-0419,Global Tech,Automobile,Tech & Services,Rabat-Salé-Kénitra,TPE (1-10),4.6,76,61,100,28,45,100,0,Actif engagé,6,5,Oui,Oui,2026-04-21
+ADH-0420,Casa Transport,Finance & Assurance,Tech & Services,Casablanca-Settat,PME (11-50),40.1,50,50,100,20,18,40,50,Modéré,3,2,Oui,Non,2026-04-21
+ADH-0421,Maghreb Consulting,Éducation & Formation,Industrie & Infrastructures,Fès-Meknès,PME (11-50),43.4,47,25,33,16,27,40,0,À risque,1,3,Oui,Non,2026-04-21
+ADH-0422,First Consulting,Agroalimentaire,Agrotech,Casablanca-Settat,TPE (1-10),0.5,16,9,0,4,9,40,0,Dormant,0,1,Oui,Non,2026-04-21
+ADH-0423,Méditerranée Foods,Tourisme & Hôtellerie,Agrotech,Rabat-Salé-Kénitra,PME (11-50),9.2,91,64,100,31,55,100,0,Actif engagé,4,6,Oui,Oui,2026-04-21
+ADH-0424,Africa Development,Logistique & Transport,Agrotech,Marrakech-Safi,ETI (51-250),222.5,69,65,100,29,36,100,50,Actif engagé,6,4,Oui,Oui,2026-04-21
+ADH-0425,Casa Construction,Télécoms,Art de vivre & Santé,Casablanca-Settat,PME (11-50),35.5,23,12,33,0,9,0,0,Dormant,1,1,Non,Non,2026-04-21
+ADH-0426,Méditerranée Agri,BTP & Immobilier,Industrie & Infrastructures,Casablanca-Settat,Grande Entreprise (250+),1954.9,38,37,67,11,18,40,50,À risque,2,2,Oui,Non,2026-04-21
+ADH-0427,Maroc Logistics,Finance & Assurance,Industrie & Infrastructures,Rabat-Salé-Kénitra,PME (11-50),44.1,90,53,100,32,45,40,0,Modéré,4,5,Oui,Non,2026-04-21
+ADH-0428,Green Energy,Éducation & Formation,Tech & Services,Rabat-Salé-Kénitra,TPE (1-10),0.8,55,53,67,22,36,100,50,Modéré,2,4,Oui,Oui,2026-04-21
+ADH-0429,Maghreb Digital,IT & Digital,Agrotech,Rabat-Salé-Kénitra,TPE (1-10),2.3,17,9,0,5,9,40,0,Dormant,0,1,Oui,Non,2026-04-21
+ADH-0430,Smart Import,Finance & Assurance,Agrotech,Casablanca-Settat,TPE (1-10),2.4,70,49,100,30,27,40,0,Modéré,6,3,Oui,Non,2026-04-21
+ADH-0431,Euro Digital,Santé & Pharma,Agrotech,Casablanca-Settat,PME (11-50),25.5,87,63,100,36,45,100,0,Actif engagé,5,5,Oui,Oui,2026-04-21
+ADH-0432,Franco Finance,Distribution & Retail,Tech & Services,Fès-Meknès,TPE (1-10),3.7,20,27,0,13,18,100,50,À risque,0,2,Oui,Oui,2026-04-21
+ADH-0433,Royal Export,Industrie manufacturière,Industrie & Infrastructures,Casablanca-Settat,PME (11-50),16.4,36,38,33,18,18,100,50,À risque,1,2,Oui,Oui,2026-04-21
+ADH-0434,Africa Trading,Logistique & Transport,Tech & Services,Casablanca-Settat,Grande Entreprise (250+),1518.5,21,59,100,9,9,100,100,Modéré,3,1,Oui,Oui,2026-04-21
+ADH-0435,Prime Foods,Finance & Assurance,Industrie & Infrastructures,Rabat-Salé-Kénitra,ETI (51-250),83.7,21,11,0,5,18,40,0,Dormant,0,2,Oui,Non,2026-04-21
+ADH-0436,First Group,Santé & Pharma,Art de vivre & Santé,Marrakech-Safi,ETI (51-250),170.7,82,36,67,0,36,60,0,À risque,2,4,Non,Oui,2026-04-21
+ADH-0437,Green Development,Textile & Mode,Agrotech,Fès-Meknès,TPE (1-10),1.7,12,38,67,0,9,40,100,À risque,2,1,Oui,Non,2026-04-21
+ADH-0438,Neo Finance,Éducation & Formation,Cleantech,Rabat-Salé-Kénitra,ETI (51-250),283.9,92,62,100,32,45,100,0,Actif engagé,3,5,Oui,Oui,2026-04-21
+ADH-0439,Global Invest,Industrie manufacturière,Agrotech,Tanger-Tétouan,PME (11-50),44.5,24,27,33,11,18,40,50,À risque,1,2,Oui,Non,2026-04-21
+ADH-0440,Maghreb Invest,BTP & Immobilier,Art de vivre & Santé,Casablanca-Settat,TPE (1-10),4,93,66,100,40,55,100,0,Actif engagé,6,6,Oui,Oui,2026-04-21
+ADH-0441,Casa Agri,Éducation & Formation,Industrie & Infrastructures,Casablanca-Settat,Grande Entreprise (250+),1770.2,65,49,100,21,36,40,0,Modéré,3,4,Oui,Non,2026-04-21
+ADH-0442,Africa Construction,Distribution & Retail,Industrie & Infrastructures,Dakhla-Oued Eddahab,PME (11-50),7.4,65,50,100,25,36,40,0,Modéré,4,4,Oui,Non,2026-04-21
+ADH-0443,Prime Engineering,Télécoms,Industrie & Infrastructures,Fès-Meknès,ETI (51-250),238.8,53,49,100,16,18,40,50,Modéré,4,2,Oui,Non,2026-04-21
+ADH-0444,Prime International,Finance & Assurance,Tech & Services,Rabat-Salé-Kénitra,ETI (51-250),233.8,56,66,100,20,27,100,100,Actif engagé,6,3,Oui,Oui,2026-04-21
+ADH-0445,Smart Transport,Santé & Pharma,Industrie & Infrastructures,Béni Mellal-Khénifra,Grande Entreprise (250+),1503.1,95,54,100,35,45,40,0,Modéré,4,5,Oui,Non,2026-04-21
+ADH-0446,Rif Invest,Énergie & Environnement,Tech & Services,Casablanca-Settat,ETI (51-250),104.6,63,36,67,0,36,60,0,À risque,2,4,Non,Oui,2026-04-21
+ADH-0447,Souss Group,Finance & Assurance,Industrie & Infrastructures,Casablanca-Settat,TPE (1-10),4.8,95,57,100,41,55,40,0,Modéré,5,6,Oui,Non,2026-04-21
+ADH-0448,First Tech,BTP & Immobilier,Tech & Services,Souss-Massa,ETI (51-250),178.6,16,49,67,11,9,100,100,Modéré,2,1,Oui,Oui,2026-04-21
+ADH-0449,Green Solutions,Agroalimentaire,Art de vivre & Santé,Rabat-Salé-Kénitra,PME (11-50),29.2,94,64,100,39,45,100,0,Actif engagé,4,5,Oui,Oui,2026-04-21
+ADH-0450,Maroc Import,Finance & Assurance,Agrotech,Béni Mellal-Khénifra,TPE (1-10),3.7,74,59,100,28,36,100,0,Modéré,4,4,Oui,Oui,2026-04-21
+ADH-0451,Casa Finance,BTP & Immobilier,Art de vivre & Santé,Tanger-Tétouan,PME (11-50),7.8,69,48,100,27,27,40,0,Modéré,6,3,Oui,Non,2026-04-21
+ADH-0452,Atlas Energy,Automobile,Art de vivre & Santé,Rabat-Salé-Kénitra,Grande Entreprise (250+),1569.5,9,13,0,0,9,40,50,Dormant,0,1,Oui,Non,2026-04-21
+ADH-0453,Vision Partners,BTP & Immobilier,Cleantech,Rabat-Salé-Kénitra,TPE (1-10),1.1,22,9,0,5,9,40,0,Dormant,0,1,Oui,Non,2026-04-21
+ADH-0454,Rif Import,Industrie manufacturière,Tech & Services,Souss-Massa,TPE (1-10),2.4,43,62,100,15,18,100,100,Actif engagé,5,2,Oui,Oui,2026-04-21
+ADH-0455,Souss Agri,Éducation & Formation,Tech & Services,Tanger-Tétouan,ETI (51-250),95.3,52,4,0,0,18,0,0,Dormant,0,2,Non,Non,2026-04-21
+ADH-0456,Vision Finance,Agroalimentaire,Industrie & Infrastructures,Marrakech-Safi,Grande Entreprise (250+),726.2,49,34,100,0,18,0,0,À risque,6,2,Non,Non,2026-04-21
+ADH-0457,Royal Invest,Finance & Assurance,Industrie & Infrastructures,Casablanca-Settat,Grande Entreprise (250+),1353.2,63,38,67,25,27,40,0,À risque,2,3,Oui,Non,2026-04-21
+ADH-0458,Nova Services,Tourisme & Hôtellerie,Industrie & Infrastructures,Fès-Meknès,PME (11-50),48.1,15,9,0,4,9,40,0,Dormant,0,1,Oui,Non,2026-04-21
+ADH-0459,First Capital,Télécoms,Industrie & Infrastructures,Souss-Massa,PME (11-50),21.1,73,53,100,34,45,40,0,Modéré,6,5,Oui,Non,2026-04-21
+ADH-0460,Royal Finance,IT & Digital,Tech & Services,Casablanca-Settat,PME (11-50),8.4,85,53,100,37,36,40,0,Modéré,6,4,Oui,Non,2026-04-21
+ADH-0461,Euro Services,Logistique & Transport,Industrie & Infrastructures,Rabat-Salé-Kénitra,Grande Entreprise (250+),974.5,7,13,0,2,9,40,50,Dormant,0,1,Oui,Non,2026-04-21
+ADH-0462,Pro International,Distribution & Retail,Industrie & Infrastructures,Tanger-Tétouan,PME (11-50),12.2,19,10,0,11,9,40,0,Dormant,0,1,Oui,Non,2026-04-21
+ADH-0463,Casa Export,Santé & Pharma,Art de vivre & Santé,Casablanca-Settat,Grande Entreprise (250+),1719.3,47,35,100,0,27,0,0,À risque,4,3,Non,Non,2026-04-21
+ADH-0464,Nova International,Textile & Mode,Agrotech,Casablanca-Settat,TPE (1-10),3.1,53,34,100,0,18,0,0,À risque,3,2,Non,Non,2026-04-21
+ADH-0465,Méditerranée Partners,Logistique & Transport,Industrie & Infrastructures,Rabat-Salé-Kénitra,PME (11-50),5.3,34,60,100,12,9,100,100,Actif engagé,4,1,Oui,Oui,2026-04-21
+ADH-0466,Souss Solutions,Santé & Pharma,Art de vivre & Santé,Rabat-Salé-Kénitra,TPE (1-10),1.2,43,23,33,14,18,40,0,À risque,1,2,Oui,Non,2026-04-21
+ADH-0467,Smart Invest,Logistique & Transport,Tech & Services,Marrakech-Safi,TPE (1-10),1.2,82,63,100,34,45,100,0,Actif engagé,7,5,Oui,Oui,2026-04-21
+ADH-0468,Sahara Services,Finance & Assurance,Industrie & Infrastructures,Casablanca-Settat,ETI (51-250),86.7,23,40,33,13,9,100,100,Modéré,1,1,Oui,Oui,2026-04-21
+ADH-0469,Optima Transport,Finance & Assurance,Tech & Services,Rabat-Salé-Kénitra,ETI (51-250),232,91,66,100,41,55,100,0,Actif engagé,4,6,Oui,Oui,2026-04-21
+ADH-0470,Sahara Engineering,Éducation & Formation,Art de vivre & Santé,Tanger-Tétouan,ETI (51-250),248.7,54,5,0,0,27,0,0,Dormant,0,3,Non,Non,2026-04-21
+ADH-0471,Atlas Trading,Santé & Pharma,Industrie & Infrastructures,Casablanca-Settat,TPE (1-10),3.6,31,11,0,0,9,60,0,Dormant,0,1,Non,Oui,2026-04-21
+ADH-0472,Global Engineering,Distribution & Retail,Industrie & Infrastructures,Rabat-Salé-Kénitra,Grande Entreprise (250+),948.1,94,63,100,36,45,100,0,Actif engagé,6,5,Oui,Oui,2026-04-21
+ADH-0473,Casa Digital,BTP & Immobilier,Industrie & Infrastructures,Casablanca-Settat,PME (11-50),35.9,58,54,100,25,36,40,50,Modéré,4,4,Oui,Non,2026-04-21
+ADH-0474,Smart Logistics,Conseil & Services,Cleantech,Casablanca-Settat,PME (11-50),38.1,17,50,100,8,9,40,100,Modéré,2,1,Oui,Non,2026-04-21
+ADH-0475,Casa Trading,Santé & Pharma,Industrie & Infrastructures,Casablanca-Settat,Grande Entreprise (250+),1661.5,66,29,33,29,27,40,0,À risque,1,3,Oui,Non,2026-04-21
+ADH-0476,Global Solutions,Agroalimentaire,Cleantech,Casablanca-Settat,Grande Entreprise (250+),436.1,68,47,100,23,27,40,0,Modéré,3,3,Oui,Non,2026-04-21
+ADH-0477,Maroc Finance,Conseil & Services,Tech & Services,Souss-Massa,PME (11-50),46.2,65,51,100,30,36,40,0,Modéré,7,4,Oui,Non,2026-04-21
+ADH-0478,Atlas Logistics,Automobile,Tech & Services,Rabat-Salé-Kénitra,ETI (51-250),189.7,51,66,100,24,27,100,100,Actif engagé,5,3,Oui,Oui,2026-04-21
+ADH-0479,Maroc Development,Finance & Assurance,Industrie & Infrastructures,Casablanca-Settat,PME (11-50),36.6,36,41,67,18,27,40,50,Modéré,2,3,Oui,Non,2026-04-21
+ADH-0480,Tanger Engineering,Conseil & Services,Tech & Services,Casablanca-Settat,ETI (51-250),237.2,88,53,100,32,45,40,0,Modéré,4,5,Oui,Non,2026-04-21
+ADH-0481,First Trading,IT & Digital,Cleantech,Casablanca-Settat,ETI (51-250),101.7,46,50,100,23,18,40,50,Modéré,4,2,Oui,Non,2026-04-21
+ADH-0482,Méditerranée Services,Distribution & Retail,Agrotech,Souss-Massa,TPE (1-10),3.5,50,49,100,0,27,60,50,Modéré,4,3,Non,Oui,2026-04-21
+ADH-0483,Smart Partners,Tourisme & Hôtellerie,Tech & Services,Fès-Meknès,Grande Entreprise (250+),1776.9,81,53,100,31,45,40,0,Modéré,5,5,Oui,Non,2026-04-21
+ADH-0484,Tanger Development,IT & Digital,Tech & Services,Rabat-Salé-Kénitra,PME (11-50),7.4,19,32,33,11,18,40,100,À risque,1,2,Oui,Non,2026-04-21
+ADH-0485,Optima Logistics,Automobile,Art de vivre & Santé,Tanger-Tétouan,TPE (1-10),1.7,12,38,33,6,9,100,100,À risque,1,1,Oui,Oui,2026-04-21
+ADH-0486,Smart Construction,IT & Digital,Cleantech,Marrakech-Safi,ETI (51-250),143.1,93,57,100,40,55,40,0,Modéré,6,6,Oui,Non,2026-04-21
+ADH-0487,Casa Import,Conseil & Services,Industrie & Infrastructures,Tanger-Tétouan,PME (11-50),24.4,32,62,100,14,18,100,100,Actif engagé,3,2,Oui,Oui,2026-04-21
+ADH-0488,Vision Digital,Santé & Pharma,Tech & Services,Casablanca-Settat,ETI (51-250),125,61,62,100,28,27,100,50,Actif engagé,3,3,Oui,Oui,2026-04-21
+ADH-0489,Maghreb Trading,Éducation & Formation,Cleantech,Casablanca-Settat,Grande Entreprise (250+),463.7,85,54,100,34,45,40,0,Modéré,6,5,Oui,Non,2026-04-21
+ADH-0490,Euro Partners,Énergie & Environnement,Agrotech,Souss-Massa,ETI (51-250),243.7,61,49,100,22,36,40,0,Modéré,5,4,Oui,Non,2026-04-21
+ADH-0491,Franco Capital,Finance & Assurance,Tech & Services,Marrakech-Safi,Grande Entreprise (250+),1329.2,62,50,100,28,36,40,0,Modéré,5,4,Oui,Non,2026-04-21
+ADH-0492,Méditerranée Import,Tourisme & Hôtellerie,Agrotech,Casablanca-Settat,ETI (51-250),153.5,19,59,100,8,9,100,100,Modéré,3,1,Oui,Oui,2026-04-21
+ADH-0493,Pro Logistics,Industrie manufacturière,Art de vivre & Santé,Marrakech-Safi,ETI (51-250),102.6,35,53,67,16,18,100,100,Modéré,2,2,Oui,Oui,2026-04-21
+ADH-0494,Maroc Pharma,Télécoms,Agrotech,Fès-Meknès,TPE (1-10),1.6,59,68,100,24,36,100,100,Actif engagé,6,4,Oui,Oui,2026-04-21
+ADH-0495,Tech Foods,Automobile,Tech & Services,Casablanca-Settat,PME (11-50),31.6,41,25,67,0,27,0,0,À risque,2,3,Non,Non,2026-04-21
+ADH-0496,Méditerranée Construction,Conseil & Services,Agrotech,Rabat-Salé-Kénitra,ETI (51-250),50,45,48,100,15,18,40,50,Modéré,3,2,Oui,Non,2026-04-21
+ADH-0497,Souss Digital,Distribution & Retail,Agrotech,Rabat-Salé-Kénitra,TPE (1-10),4.1,34,39,67,17,18,40,50,À risque,2,2,Oui,Non,2026-04-21
+ADH-0498,Rif Solutions,Automobile,Agrotech,Casablanca-Settat,TPE (1-10),3.4,52,50,100,16,27,40,50,Modéré,7,3,Oui,Non,2026-04-21
+ADH-0499,Smart Trading,Énergie & Environnement,Tech & Services,Tanger-Tétouan,PME (11-50),48.6,48,64,100,20,18,100,100,Actif engagé,7,2,Oui,Oui,2026-04-21
+ADH-0500,Prime Import,BTP & Immobilier,Tech & Services,Casablanca-Settat,ETI (51-250),53.7,54,51,100,19,27,40,50,Modéré,5,3,Oui,Non,2026-04-21
